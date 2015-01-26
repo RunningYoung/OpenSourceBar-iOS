@@ -3,6 +3,7 @@
 // Copyright (c) 2015 Polidea. All rights reserved.
 //
 
+#import <PureLayout/ALView+PureLayout.h>
 #import "RootViewController.h"
 #import "RootView.h"
 #import "TableViewController.h"

@@ -19,6 +19,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor greenColor];
+        self.layer.borderWidth = 1.0f;
+        self.layer.borderColor = [UIColor grayColor].CGColor;
         
         UILabel *title = [UILabel newAutoLayoutView];
         title.text = @"Complicated View";
@@ -29,7 +31,7 @@
         self.container = container;
 
         UIView *left = [UIView newAutoLayoutView];
-        left.backgroundColor = [UIColor greenColor];
+        left.backgroundColor = [UIColor yellowColor];
         self.left = left;
 
         UILabel *right = [UILabel newAutoLayoutView];
@@ -50,10 +52,15 @@
 
 - (void)updateConstraints {
 
-    // TODO updateConstraints
+    [self.title autoPinEdgeToSuperviewEdge:ALEdgeTop];
+    [self.title autoAlignAxisToSuperviewAxis:ALAxisVertical];
+    [self.container autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.title];
+    [self.container autoPinEdgesToSuperviewEdgesWithInsets:ALEdgeInsetsMake(10, 10, 10, 10) excludingEdge:ALEdgeTop];
+
+    [self.left autoPinEdgesToSuperviewEdgesWithInsets:ALEdgeInsetsZero excludingEdge:ALEdgeRight];
+    [self.right autoPinEdgesToSuperviewEdgesWithInsets:ALEdgeInsetsZero excludingEdge:ALEdgeLeft];
 
     [super updateConstraints];
 }
-
 
 @end

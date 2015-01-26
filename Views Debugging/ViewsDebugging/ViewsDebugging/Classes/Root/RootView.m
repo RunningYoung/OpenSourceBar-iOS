@@ -37,10 +37,13 @@
 
 - (void)updateConstraints {
 
-    // TODO updateConstraints
+    [self.complicatedView autoPinEdgesToSuperviewEdgesWithInsets:ALEdgeInsetsMake(64, 10, 10, 10)
+                                                   excludingEdge:ALEdgeBottom];
+    [self.guestView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.complicatedView];
+    [self.guestView autoPinEdgesToSuperviewEdgesWithInsets:ALEdgeInsetsMake(10, 10, 10, 10)
+                                             excludingEdge:ALEdgeTop];
 
     [super updateConstraints];
 }
-
 
 @end

@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		81086110ABF9ACFA73B9218C /* SharedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810867088BDA4B41DE7B3D38 /* SharedView.m */; };
+		810861D201AE10B0D9CECC65 /* PureLayoutComplicatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108692BFD325FA65CF50BFD /* PureLayoutComplicatedView.m */; };
 		810863A1E8DAD3B4F92A3F2E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108637185B2C5E57A19C28C /* RootViewController.m */; };
 		810864092D62B5A19E5E2279 /* SharedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810869981E0A990408EB8B07 /* SharedViewController.m */; };
+		810866CC559E0DCC894ADDBF /* MasonryComplicatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108620EC042AD5303D6080B /* MasonryComplicatedView.m */; };
 		81086986DC06033DE11F60BC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108633251D09B299FE1D584 /* TableViewController.m */; };
+		81086D4129879C5B72C5EFCD /* PureLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810867DF221E24EF25376634 /* PureLayoutView.m */; };
 		81086E44C060C5B968C2A8F7 /* ComplicatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108616BF8AF726584B75A7E /* ComplicatedView.m */; };
+		81086F11BD91C748465851B1 /* MasonryLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086666BB370ACA35D3C98A /* MasonryLayoutView.m */; };
 		81086F5B592870C44FB139B6 /* ViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CC28DFCCD5557D05589 /* ViewConfiguration.m */; };
 		A1A97CCC1A764FA5002E121F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A97CCB1A764FA5002E121F /* main.m */; };
 		A1A97CCF1A764FA5002E121F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A97CCE1A764FA5002E121F /* AppDelegate.m */; };
@@ -36,15 +40,23 @@
 		26E6023EADE1C57F316CCEA9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		81086169AB7F6D5004AB5131 /* ViewConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewConfiguration.h; sourceTree = "<group>"; };
 		8108616BF8AF726584B75A7E /* ComplicatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplicatedView.m; sourceTree = "<group>"; };
+		8108620EC042AD5303D6080B /* MasonryComplicatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryComplicatedView.m; sourceTree = "<group>"; };
 		81086218E4B6DFA52B44CEC7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		810863235F022AAD21F7D1F7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		8108633251D09B299FE1D584 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		8108637185B2C5E57A19C28C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		810863CD9710D4AA54DD1DC0 /* ComplicatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplicatedView.h; sourceTree = "<group>"; };
 		8108662EB507FD8AFFF47B31 /* SharedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedView.h; sourceTree = "<group>"; };
+		81086666BB370ACA35D3C98A /* MasonryLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryLayoutView.m; sourceTree = "<group>"; };
+		810866ACD9266DC29C825A41 /* PureLayoutComplicatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutComplicatedView.h; sourceTree = "<group>"; };
 		810867088BDA4B41DE7B3D38 /* SharedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedView.m; sourceTree = "<group>"; };
+		810867DF221E24EF25376634 /* PureLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PureLayoutView.m; sourceTree = "<group>"; };
+		8108692BFD325FA65CF50BFD /* PureLayoutComplicatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PureLayoutComplicatedView.m; sourceTree = "<group>"; };
 		810869981E0A990408EB8B07 /* SharedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedViewController.m; sourceTree = "<group>"; };
+		81086A6355F478794B5B3C27 /* MasonryLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryLayoutView.h; sourceTree = "<group>"; };
+		81086AA1F8EA350C9307607C /* PureLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutView.h; sourceTree = "<group>"; };
 		81086AAF0A9FF024220AA7B7 /* SharedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedViewController.h; sourceTree = "<group>"; };
+		81086B83D315B168FAB1E211 /* MasonryComplicatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryComplicatedView.h; sourceTree = "<group>"; };
 		81086CC28DFCCD5557D05589 /* ViewConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewConfiguration.m; sourceTree = "<group>"; };
 		A1A97CC61A764FA5002E121F /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A97CCA1A764FA5002E121F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,8 +108,32 @@
 				81086055EAEE5219F8D658DD /* Shared */,
 				81086FA72ED9AC1991EB912B /* Config */,
 				81086DF46DAD271F6E481303 /* Root */,
+				810863554C752C0B64D746ED /* MasonryVersion */,
+				810868D0B2198E2B269A38F3 /* PureLayoutVersion */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		810863554C752C0B64D746ED /* MasonryVersion */ = {
+			isa = PBXGroup;
+			children = (
+				81086666BB370ACA35D3C98A /* MasonryLayoutView.m */,
+				81086A6355F478794B5B3C27 /* MasonryLayoutView.h */,
+				8108620EC042AD5303D6080B /* MasonryComplicatedView.m */,
+				81086B83D315B168FAB1E211 /* MasonryComplicatedView.h */,
+			);
+			path = MasonryVersion;
+			sourceTree = "<group>";
+		};
+		810868D0B2198E2B269A38F3 /* PureLayoutVersion */ = {
+			isa = PBXGroup;
+			children = (
+				810867DF221E24EF25376634 /* PureLayoutView.m */,
+				81086AA1F8EA350C9307607C /* PureLayoutView.h */,
+				8108692BFD325FA65CF50BFD /* PureLayoutComplicatedView.m */,
+				810866ACD9266DC29C825A41 /* PureLayoutComplicatedView.h */,
+			);
+			path = PureLayoutVersion;
 			sourceTree = "<group>";
 		};
 		81086A46E8D91F3E393F169E /* Base */ = {
@@ -347,6 +383,10 @@
 				810864092D62B5A19E5E2279 /* SharedViewController.m in Sources */,
 				81086F5B592870C44FB139B6 /* ViewConfiguration.m in Sources */,
 				810863A1E8DAD3B4F92A3F2E /* RootViewController.m in Sources */,
+				81086F11BD91C748465851B1 /* MasonryLayoutView.m in Sources */,
+				81086D4129879C5B72C5EFCD /* PureLayoutView.m in Sources */,
+				810866CC559E0DCC894ADDBF /* MasonryComplicatedView.m in Sources */,
+				810861D201AE10B0D9CECC65 /* PureLayoutComplicatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

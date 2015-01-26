@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
-
-@end
+#if defined(DEBUG)
+#import "iOSHierarchyViewer.h"
+#endif
 
 @implementation AppDelegate
 
@@ -18,6 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+#if defined(DEBUG)
+    [iOSHierarchyViewer start];
+#endif
 }
 
 @end

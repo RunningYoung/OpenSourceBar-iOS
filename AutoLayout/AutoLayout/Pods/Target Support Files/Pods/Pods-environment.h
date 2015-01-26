@@ -18,3 +18,9 @@
 #define COCOAPODS_VERSION_MINOR_PureLayout 0
 #define COCOAPODS_VERSION_PATCH_PureLayout 4
 
+// iOS-Hierarchy-Viewer
+#define COCOAPODS_POD_AVAILABLE_iOS_Hierarchy_Viewer
+#define COCOAPODS_VERSION_MAJOR_iOS_Hierarchy_Viewer 1
+#define COCOAPODS_VERSION_MINOR_iOS_Hierarchy_Viewer 4
+#define COCOAPODS_VERSION_PATCH_iOS_Hierarchy_Viewer 7
+

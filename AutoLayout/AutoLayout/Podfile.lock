@@ -1,12 +1,15 @@
 PODS:
+  - iOS-Hierarchy-Viewer (1.4.7)
   - Masonry (0.6.0)
   - PureLayout (2.0.4)
 
 DEPENDENCIES:
+  - iOS-Hierarchy-Viewer
   - Masonry
   - PureLayout
 
 SPEC CHECKSUMS:
+  iOS-Hierarchy-Viewer: f795abaeb8ccec8f652abd0891c396ad77d211d3
   Masonry: 0bc111d6902e3a55ff8423bcbdf7155261806547
   PureLayout: ddf4fedf7e2f5984f972bbd2205dda4fc3418347
 

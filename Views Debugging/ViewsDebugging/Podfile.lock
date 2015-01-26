@@ -1,0 +1,10 @@
+PODS:
+  - iOS-Hierarchy-Viewer (1.4.7)
+
+DEPENDENCIES:
+  - iOS-Hierarchy-Viewer
+
+SPEC CHECKSUMS:
+  iOS-Hierarchy-Viewer: f795abaeb8ccec8f652abd0891c396ad77d211d3
+
+COCOAPODS: 0.35.0

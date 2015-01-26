@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4AD5CD515448C5A5D39D7687 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AFDFDC2A3D3C1194B6C9AE /* libPods.a */; };
+		81086040F0F0F81CB32077B1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086C9F9D775ACCD175B564 /* TableViewController.m */; };
+		81086A03EB4AFD4FC3DB1053 /* ComplicatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108608176F73ADE7DFA94F5 /* ComplicatedView.m */; };
+		81086B3C28193D29F5935F3D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108652136F2EA064746AC77 /* RootViewController.m */; };
+		81086D8AF12B21A4EADA48A1 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108607940E349BD81B513D9 /* RootView.m */; };
 		A1BE6E951A76547B00BA2FF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6E941A76547B00BA2FF4 /* main.m */; };
 		A1BE6E981A76547B00BA2FF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6E971A76547B00BA2FF4 /* AppDelegate.m */; };
 		A1BE6EA01A76547B00BA2FF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BE6E9F1A76547B00BA2FF4 /* Images.xcassets */; };
@@ -27,6 +31,14 @@
 
 /* Begin PBXFileReference section */
 		000337118F78E09FD973B08A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8108600613685F5A201424BF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8108607940E349BD81B513D9 /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
+		8108608176F73ADE7DFA94F5 /* ComplicatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplicatedView.m; sourceTree = "<group>"; };
+		8108619C9F46E5B67AA19557 /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		8108652136F2EA064746AC77 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		81086A231A74B14D31531958 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		81086C770ACC250F10450D62 /* ComplicatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplicatedView.h; sourceTree = "<group>"; };
+		81086C9F9D775ACCD175B564 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		A1BE6E8F1A76547B00BA2FF4 /* ViewsDebugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsDebugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BE6E931A76547B00BA2FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1BE6E941A76547B00BA2FF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +81,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		81086245331A293C37B6B6FD /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				81086C9F9D775ACCD175B564 /* TableViewController.m */,
+				8108600613685F5A201424BF /* TableViewController.h */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		81086258148B9D8DA0A53281 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81086C8DC73ED2078321200C /* Root */,
+				81086245331A293C37B6B6FD /* Table */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		81086C8DC73ED2078321200C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8108652136F2EA064746AC77 /* RootViewController.m */,
+				81086A231A74B14D31531958 /* RootViewController.h */,
+				8108607940E349BD81B513D9 /* RootView.m */,
+				8108619C9F46E5B67AA19557 /* RootView.h */,
+				8108608176F73ADE7DFA94F5 /* ComplicatedView.m */,
+				81086C770ACC250F10450D62 /* ComplicatedView.h */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		87D782F5EA62EDF6D56B9763 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +148,7 @@
 				A1BE6E9F1A76547B00BA2FF4 /* Images.xcassets */,
 				A1BE6EA11A76547B00BA2FF4 /* LaunchScreen.xib */,
 				A1BE6E921A76547B00BA2FF4 /* Supporting Files */,
+				81086258148B9D8DA0A53281 /* Classes */,
 			);
 			path = ViewsDebugging;
 			sourceTree = "<group>";
@@ -271,6 +315,10 @@
 			files = (
 				A1BE6E981A76547B00BA2FF4 /* AppDelegate.m in Sources */,
 				A1BE6E951A76547B00BA2FF4 /* main.m in Sources */,
+				81086B3C28193D29F5935F3D /* RootViewController.m in Sources */,
+				81086D8AF12B21A4EADA48A1 /* RootView.m in Sources */,
+				81086A03EB4AFD4FC3DB1053 /* ComplicatedView.m in Sources */,
+				81086040F0F0F81CB32077B1 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +436,7 @@
 				INFOPLIST_FILE = ViewsDebugging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -399,6 +448,7 @@
 				INFOPLIST_FILE = ViewsDebugging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

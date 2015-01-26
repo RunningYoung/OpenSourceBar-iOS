@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81086110ABF9ACFA73B9218C /* SharedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810867088BDA4B41DE7B3D38 /* SharedView.m */; };
+		810863A1E8DAD3B4F92A3F2E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108637185B2C5E57A19C28C /* RootViewController.m */; };
+		810864092D62B5A19E5E2279 /* SharedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810869981E0A990408EB8B07 /* SharedViewController.m */; };
+		81086986DC06033DE11F60BC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108633251D09B299FE1D584 /* TableViewController.m */; };
+		81086E44C060C5B968C2A8F7 /* ComplicatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108616BF8AF726584B75A7E /* ComplicatedView.m */; };
+		81086F5B592870C44FB139B6 /* ViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CC28DFCCD5557D05589 /* ViewConfiguration.m */; };
 		A1A97CCC1A764FA5002E121F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A97CCB1A764FA5002E121F /* main.m */; };
 		A1A97CCF1A764FA5002E121F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A97CCE1A764FA5002E121F /* AppDelegate.m */; };
 		A1A97CD71A764FA5002E121F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A97CD61A764FA5002E121F /* Images.xcassets */; };
@@ -28,6 +34,18 @@
 /* Begin PBXFileReference section */
 		03CD27525C72FBB2F2F7324A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		26E6023EADE1C57F316CCEA9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81086169AB7F6D5004AB5131 /* ViewConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewConfiguration.h; sourceTree = "<group>"; };
+		8108616BF8AF726584B75A7E /* ComplicatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplicatedView.m; sourceTree = "<group>"; };
+		81086218E4B6DFA52B44CEC7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		810863235F022AAD21F7D1F7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8108633251D09B299FE1D584 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		8108637185B2C5E57A19C28C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		810863CD9710D4AA54DD1DC0 /* ComplicatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplicatedView.h; sourceTree = "<group>"; };
+		8108662EB507FD8AFFF47B31 /* SharedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedView.h; sourceTree = "<group>"; };
+		810867088BDA4B41DE7B3D38 /* SharedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedView.m; sourceTree = "<group>"; };
+		810869981E0A990408EB8B07 /* SharedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedViewController.m; sourceTree = "<group>"; };
+		81086AAF0A9FF024220AA7B7 /* SharedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedViewController.h; sourceTree = "<group>"; };
+		81086CC28DFCCD5557D05589 /* ViewConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewConfiguration.m; sourceTree = "<group>"; };
 		A1A97CC61A764FA5002E121F /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A97CCA1A764FA5002E121F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1A97CCB1A764FA5002E121F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +78,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81086055EAEE5219F8D658DD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8108662EB507FD8AFFF47B31 /* SharedView.h */,
+				810867088BDA4B41DE7B3D38 /* SharedView.m */,
+				81086AAF0A9FF024220AA7B7 /* SharedViewController.h */,
+				810869981E0A990408EB8B07 /* SharedViewController.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		810860B1587BE01A9D7A0CB4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81086A46E8D91F3E393F169E /* Base */,
+				81086055EAEE5219F8D658DD /* Shared */,
+				81086FA72ED9AC1991EB912B /* Config */,
+				81086DF46DAD271F6E481303 /* Root */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		81086A46E8D91F3E393F169E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8108616BF8AF726584B75A7E /* ComplicatedView.m */,
+				810863CD9710D4AA54DD1DC0 /* ComplicatedView.h */,
+				8108633251D09B299FE1D584 /* TableViewController.m */,
+				810863235F022AAD21F7D1F7 /* TableViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		81086DF46DAD271F6E481303 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8108637185B2C5E57A19C28C /* RootViewController.m */,
+				81086218E4B6DFA52B44CEC7 /* RootViewController.h */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		81086FA72ED9AC1991EB912B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				81086CC28DFCCD5557D05589 /* ViewConfiguration.m */,
+				81086169AB7F6D5004AB5131 /* ViewConfiguration.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		A1A97CBD1A764FA5002E121F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +157,7 @@
 				A1A97CD61A764FA5002E121F /* Images.xcassets */,
 				A1A97CD81A764FA5002E121F /* LaunchScreen.xib */,
 				A1A97CC91A764FA5002E121F /* Supporting Files */,
+				810860B1587BE01A9D7A0CB4 /* Classes */,
 			);
 			path = AutoLayout;
 			sourceTree = "<group>";
@@ -271,6 +341,12 @@
 			files = (
 				A1A97CCF1A764FA5002E121F /* AppDelegate.m in Sources */,
 				A1A97CCC1A764FA5002E121F /* main.m in Sources */,
+				81086E44C060C5B968C2A8F7 /* ComplicatedView.m in Sources */,
+				81086986DC06033DE11F60BC /* TableViewController.m in Sources */,
+				81086110ABF9ACFA73B9218C /* SharedView.m in Sources */,
+				810864092D62B5A19E5E2279 /* SharedViewController.m in Sources */,
+				81086F5B592870C44FB139B6 /* ViewConfiguration.m in Sources */,
+				810863A1E8DAD3B4F92A3F2E /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +464,8 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -399,6 +477,8 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

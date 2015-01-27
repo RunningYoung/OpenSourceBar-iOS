@@ -1,0 +1,6 @@
+github "Carthage/LlamaKit" "ac2c2d36bf14bdddd0c1c489df67ad9a7ad04eb4"
+github "LlamaKit/LlamaKit" "v0.5.0"
+github "Quick/Nimble" "7016545086970b57bf82b6e535aa54db13bcabfb"
+github "Quick/Quick" "50493448a2a41166c9521348229efb73b036dd97"
+github "Masonry/Snap" "0.0.4"
+github "ReactiveCocoa/ReactiveCocoa" "54c475c0962582f00b08d8a5710b815ba9bc8516"

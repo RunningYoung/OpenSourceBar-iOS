@@ -1,0 +1,5 @@
+github "Quick/Nimble" "master"
+github "Quick/Quick" "master"
+github "Carthage/LlamaKit" "carthage-0.1.1"
+github "ReactiveCocoa/ReactiveCocoa" "swift-development"
+github "Masonry/Snap"

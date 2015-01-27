@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+
+pod 'AFNetworking'
+pod 'Typhoon'
+pod 'Masonry', '0.5.3'
+pod 'CocoaLumberjack', '1.9.0'
+pod 'AVHexColor', '1.2.0'
+pod 'DVCoreDataFinders', '0.6'
+pod 'DCKeyValueObjectMapping', '1.4'
+pod 'FormatterKit'
+pod 'SSKeychain', '>= 1.2.2'
+pod 'BlocksKit', '2.2.5'
+pod 'ReactiveCocoa', '~> 2.3.1'
+
+pod 'iOS-Hierarchy-Viewer', :path => "LocalPods/iOS-Hierarchy-Viewer/"
+
+target :CocoaPodsTestTests, :exclusive => true do
+  pod 'Kiwi', '~> 2.3.1'
+end

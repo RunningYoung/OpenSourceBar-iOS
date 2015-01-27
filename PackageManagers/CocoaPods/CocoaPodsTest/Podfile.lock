@@ -1,0 +1,114 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AVHexColor (1.2.0)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (1.9.0):
+    - CocoaLumberjack/Extensions (= 1.9.0)
+  - CocoaLumberjack/Core (1.9.0)
+  - CocoaLumberjack/Extensions (1.9.0):
+    - CocoaLumberjack/Core
+  - DCKeyValueObjectMapping (1.4)
+  - DVCoreDataFinders (0.6)
+  - FormatterKit (1.8.0):
+    - FormatterKit/AddressFormatter (= 1.8.0)
+    - FormatterKit/ArrayFormatter (= 1.8.0)
+    - FormatterKit/ColorFormatter (= 1.8.0)
+    - FormatterKit/LocationFormatter (= 1.8.0)
+    - FormatterKit/NameFormatter (= 1.8.0)
+    - FormatterKit/OrdinalNumberFormatter (= 1.8.0)
+    - FormatterKit/TimeIntervalFormatter (= 1.8.0)
+    - FormatterKit/UnitOfInformationFormatter (= 1.8.0)
+    - FormatterKit/URLRequestFormatter (= 1.8.0)
+  - FormatterKit/AddressFormatter (1.8.0)
+  - FormatterKit/ArrayFormatter (1.8.0)
+  - FormatterKit/ColorFormatter (1.8.0)
+  - FormatterKit/LocationFormatter (1.8.0)
+  - FormatterKit/NameFormatter (1.8.0)
+  - FormatterKit/OrdinalNumberFormatter (1.8.0)
+  - FormatterKit/TimeIntervalFormatter (1.8.0)
+  - FormatterKit/UnitOfInformationFormatter (1.8.0)
+  - FormatterKit/URLRequestFormatter (1.8.0)
+  - iOS-Hierarchy-Viewer (1.4.8)
+  - Kiwi (2.3.1)
+  - Masonry (0.5.3)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - SSKeychain (1.2.2)
+  - Typhoon (2.3.4):
+    - Typhoon/no-arc (= 2.3.4)
+  - Typhoon/no-arc (2.3.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AVHexColor (= 1.2.0)
+  - BlocksKit (= 2.2.5)
+  - CocoaLumberjack (= 1.9.0)
+  - DCKeyValueObjectMapping (= 1.4)
+  - DVCoreDataFinders (= 0.6)
+  - FormatterKit
+  - iOS-Hierarchy-Viewer (from `LocalPods/iOS-Hierarchy-Viewer/`)
+  - Kiwi (~> 2.3.1)
+  - Masonry (= 0.5.3)
+  - ReactiveCocoa (~> 2.3.1)
+  - SSKeychain (>= 1.2.2)
+  - Typhoon
+
+EXTERNAL SOURCES:
+  iOS-Hierarchy-Viewer:
+    :path: LocalPods/iOS-Hierarchy-Viewer/
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  AVHexColor: b47099552819a98dc58d7931f0f43eb6e2308342
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  CocoaLumberjack: 5766cdd1d0a24bcf15a133c6023747346bf786dd
+  DCKeyValueObjectMapping: c3561709f296ddffba7768a9d7ccf234307fd3c9
+  DVCoreDataFinders: fe59363f614a79018a0a9a39b7800ed068e1b8e1
+  FormatterKit: 547a808c41172136a3f3acb424ac9361d38bb32f
+  iOS-Hierarchy-Viewer: 470f376616a57c8e18fc222f979b88f455d8e261
+  Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
+  Typhoon: 57aae183beb36a386017a2cc69b18e29d7a21730
+
+COCOAPODS: 0.35.0

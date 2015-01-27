@@ -11,6 +11,8 @@
 #import "SharedViewController.h"
 #import "PureLayoutView.h"
 #import "PureLayoutComplicatedView.h"
+#import "ManualLayoutView.h"
+#import "ManualComplicatedView.h"
 
 #define viewConfig(arg1, arg2) \
     [ViewConfiguration configurationWithViewClass:[arg1 class] \
@@ -31,12 +33,23 @@
         [self pushControllerWithConfig:viewConfig(PureLayoutView, PureLayoutComplicatedView)];
     };
 
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] bk_initWithTitle:@"PureLayout"
-                                                                                style:UIBarButtonItemStylePlain
-                                                                              handler:pureLayoutAction];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] bk_initWithTitle:@"Masonry"
-                                                                                 style:UIBarButtonItemStylePlain
-                                                                               handler:masonryAction];
+    void (^manualAction)(id) = ^(id _) {
+        [self pushControllerWithConfig:viewConfig(ManualLayoutView, ManualComplicatedView)];
+    };
+
+    self.navigationItem.leftBarButtonItems = @[
+            [[UIBarButtonItem alloc] bk_initWithTitle:@"Manual"
+                                                style:UIBarButtonItemStylePlain
+                                              handler:manualAction],
+    ];
+    self.navigationItem.rightBarButtonItems = @[
+            [[UIBarButtonItem alloc] bk_initWithTitle:@"Masonry"
+                                                style:UIBarButtonItemStylePlain
+                                              handler:masonryAction],
+            [[UIBarButtonItem alloc] bk_initWithTitle:@"PureLayout"
+                                                style:UIBarButtonItemStylePlain
+                                              handler:pureLayoutAction],
+    ];
 }
 
 - (void)pushControllerWithConfig:(ViewConfiguration *)config {

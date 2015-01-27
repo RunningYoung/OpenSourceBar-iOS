@@ -27,7 +27,8 @@
     if (!_complicatedView) {
         ComplicatedView *view = (id) [self.complicatedViewClass new];
         view.translatesAutoresizingMaskIntoConstraints = NO;
-        [self addSubview:self.complicatedView];
+        [self addSubview:view];
+        _complicatedView = view;
     }
     return _complicatedView;
 }

@@ -26,12 +26,12 @@
 
         UIView *container = [UIView new];
         container.translatesAutoresizingMaskIntoConstraints = NO;
-        container.backgroundColor = [UIColor greenColor];
+        container.backgroundColor = [UIColor yellowColor];
         self.container = container;
 
-        UIView *left = [UIView new];
+        UIView *left = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 40)];
         left.translatesAutoresizingMaskIntoConstraints = NO;
-        left.backgroundColor = [UIColor greenColor];
+        left.backgroundColor = [UIColor redColor];
         self.left = left;
 
         UILabel *right = [UILabel new];
@@ -41,9 +41,9 @@
         self.right = right;
 
         [self addSubview:self.title];
+        [self addSubview:self.container];
         [self.container addSubview:self.left];
         [self.container addSubview:self.right];
-        [self addSubview:self.container];
 
         [self setNeedsUpdateConstraints];
     }

@@ -5,8 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-@class ComplicatedView;
+#import "ComplicatedView.h"
 
 @interface SharedView : UIView
 @property(nonatomic, readonly) ComplicatedView *complicatedView;

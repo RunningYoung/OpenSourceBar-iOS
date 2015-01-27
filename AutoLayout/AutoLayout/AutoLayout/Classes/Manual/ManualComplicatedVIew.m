@@ -3,7 +3,7 @@
 // Copyright (c) 2015 Polidea. All rights reserved.
 //
 
-#import "ManualComplicatedVIew.h"
+#import "ManualComplicatedView.h"
 
-@implementation ManualComplicatedVIew
+@implementation ManualComplicatedView
 @end

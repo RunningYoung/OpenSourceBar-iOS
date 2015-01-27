@@ -6,5 +6,5 @@
 #import <Foundation/Foundation.h>
 #import "ComplicatedView.h"
 
-@interface ManualComplicatedVIew : ComplicatedView
+@interface ManualComplicatedView : ComplicatedView
 @end

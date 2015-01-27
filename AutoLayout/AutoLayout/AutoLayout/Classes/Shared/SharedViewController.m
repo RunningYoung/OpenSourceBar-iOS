@@ -47,6 +47,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     [self addChildViewController:self.tableViewController];
     self.rootView.guestView = self.tableViewController.view;
     [self.tableViewController didMoveToParentViewController:self];

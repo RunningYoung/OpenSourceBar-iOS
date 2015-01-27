@@ -14,9 +14,10 @@
 #import "ManualLayoutView.h"
 #import "ManualComplicatedView.h"
 
-#define viewConfig(arg1, arg2) \
-    [ViewConfiguration configurationWithViewClass:[arg1 class] \
-                             complicatedViewClass:[arg2 class]]
+#define viewConfig(arg0, arg1, arg2) \
+    [ViewConfiguration configurationWithTitle:arg0 \
+                                    viewClass:[arg1 class] \
+                         complicatedViewClass:[arg2 class]]
 
 @implementation RootViewController
 
@@ -25,28 +26,32 @@
     self.title = @"AutoLayout";
     self.view.backgroundColor = [UIColor lightGrayColor];
 
+    NSString *masonryTitle = @"Masonry";
+    NSString *pureLayoutTitle = @"PureLayout";
+    NSString *manualTitle = @"Manual";
+
     void (^masonryAction)(id) = ^(id _) {
-        [self pushControllerWithConfig:viewConfig(MasonryLayoutView, MasonryComplicatedView)];
+        [self pushControllerWithConfig:viewConfig(masonryTitle, MasonryLayoutView, MasonryComplicatedView)];
     };
 
     void (^pureLayoutAction)(id) = ^(id _) {
-        [self pushControllerWithConfig:viewConfig(PureLayoutView, PureLayoutComplicatedView)];
+        [self pushControllerWithConfig:viewConfig(pureLayoutTitle, PureLayoutView, PureLayoutComplicatedView)];
     };
 
     void (^manualAction)(id) = ^(id _) {
-        [self pushControllerWithConfig:viewConfig(ManualLayoutView, ManualComplicatedView)];
+        [self pushControllerWithConfig:viewConfig(manualTitle, ManualLayoutView, ManualComplicatedView)];
     };
 
     self.navigationItem.leftBarButtonItems = @[
-            [[UIBarButtonItem alloc] bk_initWithTitle:@"Manual"
+            [[UIBarButtonItem alloc] bk_initWithTitle:manualTitle
                                                 style:UIBarButtonItemStylePlain
                                               handler:manualAction],
     ];
     self.navigationItem.rightBarButtonItems = @[
-            [[UIBarButtonItem alloc] bk_initWithTitle:@"Masonry"
+            [[UIBarButtonItem alloc] bk_initWithTitle:masonryTitle
                                                 style:UIBarButtonItemStylePlain
                                               handler:masonryAction],
-            [[UIBarButtonItem alloc] bk_initWithTitle:@"PureLayout"
+            [[UIBarButtonItem alloc] bk_initWithTitle:pureLayoutTitle
                                                 style:UIBarButtonItemStylePlain
                                               handler:pureLayoutAction],
     ];

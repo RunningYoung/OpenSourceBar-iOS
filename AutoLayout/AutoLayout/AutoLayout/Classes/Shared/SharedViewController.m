@@ -23,6 +23,7 @@
 - (instancetype)initWithViewConfiguration:(ViewConfiguration *)viewConfiguration {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
+        self.title = viewConfiguration.title;
         _viewConfiguration = viewConfiguration;
     }
 
@@ -36,7 +37,7 @@
     return _tableViewController;
 }
 
-- (SharedView *)rootView {
+- (SharedView *)sharedView {
     return (SharedView *) self.view;
 }
 
@@ -49,7 +50,7 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self addChildViewController:self.tableViewController];
-    self.rootView.guestView = self.tableViewController.view;
+    self.sharedView.guestView = self.tableViewController.view;
     [self.tableViewController didMoveToParentViewController:self];
 }
 

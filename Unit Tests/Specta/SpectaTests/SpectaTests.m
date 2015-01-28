@@ -23,7 +23,7 @@ SpecBegin(SpectaTests)
                 [session setDelegate:sessionDelegateMock];
             });
 
-            context(@"start session", ^{
+            describe(@"start session", ^{
                 __block void(^completionBlock)(NSError *, NSString *);
 
                 beforeEach(^{
@@ -42,7 +42,7 @@ SpecBegin(SpectaTests)
                     expect([session isRunning]).to.beTruthy;
                 });
 
-                context(@"login success", ^{
+                context(@"when login success", ^{
                     beforeEach(^{
                         completionBlock(nil, @"token");
                     });
@@ -60,7 +60,7 @@ SpecBegin(SpectaTests)
                     });
                 });
 
-                context(@"login failure", ^{
+                context(@"when login failure", ^{
                     beforeEach(^{
                         completionBlock([NSError errorWithDomain:@"doman" code:400 userInfo:@{}], nil);
                     });
@@ -75,11 +75,11 @@ SpecBegin(SpectaTests)
                 });
             });
 
-            context(@"send data", ^{
+            describe(@"send data", ^{
                 __block NSError *receivedError;
                 __block NSString *receivedData;
 
-                context(@"is logged in", ^{
+                context(@"when is logged in", ^{
 
                     beforeEach(^{
                         session.token = @"token";
@@ -94,7 +94,7 @@ SpecBegin(SpectaTests)
                         [verify(networkServiceMock) sendData:@"data" token:@"token" completion:anything()];
                     });
 
-                    context(@"data sent", ^{
+                    context(@"when data sent", ^{
                         beforeEach(^{
                             MKTArgumentCaptor *argumentCaptor = [[MKTArgumentCaptor alloc]  init];
                             [verify(networkServiceMock) sendData:@"data" token:@"token" completion:[argumentCaptor capture]];
@@ -109,7 +109,7 @@ SpecBegin(SpectaTests)
                     });
                 });
 
-                context(@"is not logged in", ^{
+                context(@"when is not logged in", ^{
                     beforeEach(^{
                         session.token = nil;
 
@@ -126,7 +126,7 @@ SpecBegin(SpectaTests)
                 });
             });
 
-            context(@"stop session", ^{
+            describe(@"stop session", ^{
                 beforeEach(^{
                     session.token = @"token";
 
@@ -144,6 +144,23 @@ SpecBegin(SpectaTests)
                 it(@"should set token to nil", ^{
                     expect(session.token).to.beNil;
                 });
+            });
+
+            pending(@"when something is not finished yet", ^{
+                //temporarily disabling
+            });
+
+            xdescribe(@"when something is not finished yet", ^{
+                //another example of temporarily disabling
+            });
+
+            sharedExamples(@"shared examples", ^(NSDictionary *data) {
+                NSNumber *sharedObject = data[@"shareObject"];
+                //shared it
+            });
+
+            itBehavesLike(@"shared behaviour", ^NSDictionary * {
+                return @{@"sharedObject": @3};
             });
         });
 

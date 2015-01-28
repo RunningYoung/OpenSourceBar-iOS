@@ -19,6 +19,10 @@
 		1D925C3B1A77E0A5002C3A0B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D925C361A77E095002C3A0B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1D925C3C1A77E0A5002C3A0B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D925C371A77E095002C3A0B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1D925C3F1A77E105002C3A0B /* SwiftSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D925C3E1A77E105002C3A0B /* SwiftSpec.swift */; };
+		1D925C4B1A79187F002C3A0B /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D925C4A1A79187F002C3A0B /* OCHamcrestIOS.framework */; };
+		1D925C4D1A791887002C3A0B /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D925C4C1A791887002C3A0B /* OCMockitoIOS.framework */; };
+		37B64B9A8D133E119690D1C2 /* UTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6436E524DD5BE6D350073 /* UTSession.m */; };
+		37B64EA5C7FBAF3CBEEA489B /* UTNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B64CE214D8E1D9C8A9CA6E /* UTNetworkService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,12 @@
 		1D925C371A77E095002C3A0B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		1D925C3D1A77E105002C3A0B /* QuickTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		1D925C3E1A77E105002C3A0B /* SwiftSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpec.swift; sourceTree = "<group>"; };
+		1D925C4A1A79187F002C3A0B /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
+		1D925C4C1A791887002C3A0B /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
+		37B6436E524DD5BE6D350073 /* UTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTSession.m; sourceTree = "<group>"; };
+		37B64C54EE3B28EC3CE2EDE9 /* UTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTSession.h; sourceTree = "<group>"; };
+		37B64CE214D8E1D9C8A9CA6E /* UTNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTNetworkService.m; sourceTree = "<group>"; };
+		37B64DDF87F0575307F855DC /* UTNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTNetworkService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D925C4B1A79187F002C3A0B /* OCHamcrestIOS.framework in Frameworks */,
+				1D925C4D1A791887002C3A0B /* OCMockitoIOS.framework in Frameworks */,
 				1D925C381A77E095002C3A0B /* Nimble.framework in Frameworks */,
 				1D925C391A77E095002C3A0B /* Quick.framework in Frameworks */,
 			);
@@ -88,6 +100,8 @@
 		1D925C041A77DFC7002C3A0B = {
 			isa = PBXGroup;
 			children = (
+				1D925C4C1A791887002C3A0B /* OCMockitoIOS.framework */,
+				1D925C4A1A79187F002C3A0B /* OCHamcrestIOS.framework */,
 				1D925C361A77E095002C3A0B /* Nimble.framework */,
 				1D925C371A77E095002C3A0B /* Quick.framework */,
 				1D925C0F1A77DFC7002C3A0B /* Quick */,
@@ -116,6 +130,7 @@
 				1D925C1D1A77DFC7002C3A0B /* Images.xcassets */,
 				1D925C1F1A77DFC7002C3A0B /* LaunchScreen.xib */,
 				1D925C101A77DFC7002C3A0B /* Supporting Files */,
+				37B643FE869DA0FA3433624B /* Classes */,
 			);
 			path = Quick;
 			sourceTree = "<group>";
@@ -146,6 +161,17 @@
 				1D925C2B1A77DFC7002C3A0B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B643FE869DA0FA3433624B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37B64C54EE3B28EC3CE2EDE9 /* UTSession.h */,
+				37B6436E524DD5BE6D350073 /* UTSession.m */,
+				37B64DDF87F0575307F855DC /* UTNetworkService.h */,
+				37B64CE214D8E1D9C8A9CA6E /* UTNetworkService.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +278,8 @@
 				1D925C191A77DFC7002C3A0B /* ViewController.m in Sources */,
 				1D925C161A77DFC7002C3A0B /* AppDelegate.m in Sources */,
 				1D925C131A77DFC7002C3A0B /* main.m in Sources */,
+				37B64B9A8D133E119690D1C2 /* UTSession.m in Sources */,
+				37B64EA5C7FBAF3CBEEA489B /* UTNetworkService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +429,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -408,6 +437,12 @@
 				);
 				INFOPLIST_FILE = QuickTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "QuickTests/QuickTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -424,9 +459,16 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = QuickTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "QuickTests/QuickTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick.app/Quick";
@@ -452,6 +494,7 @@
 				1D925C321A77DFC7002C3A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D925C331A77DFC7002C3A0B /* Build configuration list for PBXNativeTarget "QuickTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +503,7 @@
 				1D925C351A77DFC7002C3A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

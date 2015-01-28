@@ -156,6 +156,14 @@ SPEC_BEGIN(KiwiTests)
                 [[session.token should] beNil];
             });
         });
+
+        pending(@"when something is not finished yet", ^{
+            //temporarily disabling
+        });
+
+        // Kiwi doesn't have xDescribe, xIt, xContext
+
+        // Kiwi doesn't have shared examples
     });
 
 SPEC_END

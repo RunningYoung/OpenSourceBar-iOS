@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5DAEB4B763598BFB6C8F30CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25E9D2E1E4B6BB359213BF /* libPods.a */; };
+		8108636E4A36FD34D3B1DC2A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108634CF2C9B484988627E6 /* LoginViewController.m */; };
+		810867E999A20B75CFDCC433 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CAEB09D4445CF966321 /* MainViewController.m */; };
 		A13BEB111A790E0E00E02C00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BEB101A790E0E00E02C00 /* main.m */; };
 		A13BEB141A790E0E00E02C00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BEB131A790E0E00E02C00 /* AppDelegate.m */; };
 		A13BEB1C1A790E0E00E02C00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13BEB1B1A790E0E00E02C00 /* Images.xcassets */; };
@@ -28,6 +30,10 @@
 /* Begin PBXFileReference section */
 		1C3761D84B09E66FD51D2AA3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		27FA837B290512E669D4C416 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8108601F763E593F98104956 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8108634CF2C9B484988627E6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		81086C786EB2E7B5936EE21F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		81086CAEB09D4445CF966321 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		9D25E9D2E1E4B6BB359213BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13BEB0B1A790E0E00E02C00 /* ReactiveCocoaSample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaSample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13BEB0F1A790E0E00E02C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +66,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810860DF03235D3A6473D3B7 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81086CAEB09D4445CF966321 /* MainViewController.m */,
+				8108601F763E593F98104956 /* MainViewController.h */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		810861710330577381103017 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8108634CF2C9B484988627E6 /* LoginViewController.m */,
+				81086C786EB2E7B5936EE21F /* LoginViewController.h */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		81086E9A355DCD27F183B256 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				810861710330577381103017 /* LoginViewController */,
+				810860DF03235D3A6473D3B7 /* MainViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		897D283BFF818EF1BAC797B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +129,7 @@
 				A13BEB1B1A790E0E00E02C00 /* Images.xcassets */,
 				A13BEB1D1A790E0E00E02C00 /* LaunchScreen.xib */,
 				A13BEB0E1A790E0E00E02C00 /* Supporting Files */,
+				81086E9A355DCD27F183B256 /* Classes */,
 			);
 			path = ReactiveCocoaSample2;
 			sourceTree = "<group>";
@@ -271,6 +305,8 @@
 			files = (
 				A13BEB141A790E0E00E02C00 /* AppDelegate.m in Sources */,
 				A13BEB111A790E0E00E02C00 /* main.m in Sources */,
+				8108636E4A36FD34D3B1DC2A /* LoginViewController.m in Sources */,
+				810867E999A20B75CFDCC433 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +424,7 @@
 				INFOPLIST_FILE = ReactiveCocoaSample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -399,6 +436,7 @@
 				INFOPLIST_FILE = ReactiveCocoaSample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

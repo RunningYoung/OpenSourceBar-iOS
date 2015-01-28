@@ -8,3 +8,4 @@ Directories reflect aspects we wanted to touch:
  - Views Debugging - iOSHierarchyViewer vs Xcode Viewer
  - Reactive Cocoa - Examples for Reactive Cocoa
  - Unit Tests - Kiwi vs Specta + Expecta (OCMockito, OCHamrest) vs Quick
+ - Property Mapping - Mantle vs DCKeyValueObjectMapping vs KZPropertyMapper vs Manual

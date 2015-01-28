@@ -14,6 +14,8 @@
 		1D925BBA1A77D10A002C3A0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D925BB91A77D10A002C3A0B /* Images.xcassets */; };
 		1D925BBD1A77D10A002C3A0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D925BBB1A77D10A002C3A0B /* LaunchScreen.xib */; };
 		1D925BC91A77D10A002C3A0B /* SpectaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D925BC81A77D10A002C3A0B /* SpectaTests.m */; };
+		37B642861F45CDDB0B529F55 /* UTNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B640666A35E898834DBF36 /* UTNetworkService.m */; };
+		37B643480255741570EE5F8D /* UTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6481B444033913F792795 /* UTSession.m */; };
 		D6BD1FFA3E6F07B7EBA8356D /* libPods-SpectaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DE3F91FEE3C5CEB57CE92F /* libPods-SpectaTests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,10 @@
 		1D925BC21A77D10A002C3A0B /* SpectaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D925BC71A77D10A002C3A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D925BC81A77D10A002C3A0B /* SpectaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectaTests.m; sourceTree = "<group>"; };
+		37B640666A35E898834DBF36 /* UTNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTNetworkService.m; sourceTree = "<group>"; };
+		37B64596FFEF136CCF7233B6 /* UTNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTNetworkService.h; sourceTree = "<group>"; };
+		37B6469198D2A2B30645C541 /* UTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTSession.h; sourceTree = "<group>"; };
+		37B6481B444033913F792795 /* UTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTSession.m; sourceTree = "<group>"; };
 		D4DE3F91FEE3C5CEB57CE92F /* libPods-SpectaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpectaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC55DB7ABA5C11F96B17ADC6 /* Pods-SpectaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpectaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpectaTests/Pods-SpectaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +110,7 @@
 				1D925BB91A77D10A002C3A0B /* Images.xcassets */,
 				1D925BBB1A77D10A002C3A0B /* LaunchScreen.xib */,
 				1D925BAC1A77D10A002C3A0B /* Supporting Files */,
+				37B644804C7C0471284C66B9 /* Classes */,
 			);
 			path = Specta;
 			sourceTree = "<group>";
@@ -132,6 +139,17 @@
 				1D925BC71A77D10A002C3A0B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B644804C7C0471284C66B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37B6469198D2A2B30645C541 /* UTSession.h */,
+				37B6481B444033913F792795 /* UTSession.m */,
+				37B64596FFEF136CCF7233B6 /* UTNetworkService.h */,
+				37B640666A35E898834DBF36 /* UTNetworkService.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C64243819AC06A2BD3E80184 /* Pods */ = {
@@ -283,6 +301,8 @@
 				1D925BB51A77D10A002C3A0B /* ViewController.m in Sources */,
 				1D925BB21A77D10A002C3A0B /* AppDelegate.m in Sources */,
 				1D925BAF1A77D10A002C3A0B /* main.m in Sources */,
+				37B643480255741570EE5F8D /* UTSession.m in Sources */,
+				37B642861F45CDDB0B529F55 /* UTNetworkService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

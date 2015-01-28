@@ -4,11 +4,8 @@
 //
 
 #import "LoginViewController.h"
-#import "UIControl+BlocksKit.h"
-#import "UIButton+RACCommandSupport.h"
-#import "RACCommand.h"
 #import "ALView+PureLayout.h"
-#import "RACSignal.h"
+#import "LoginService.h"
 
 @interface LoginViewController ()
 @property(nonatomic, strong) UIButton *loginButton;
@@ -16,16 +13,40 @@
 
 @implementation LoginViewController
 
++ (instancetype)controllerWithLoginService:(LoginService *)loginService {
+    return [[self alloc] initWithLoginService:loginService];
+}
+
+- (instancetype)initWithLoginService:(LoginService *)loginService {
+    self = [super initWithNibName:nil bundle:nil];
+    if (self) {
+        _loginService = loginService;
+    }
+
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 
     [self.view addSubview:self.loginButton];
 
-    self.loginButton.rac_command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id _) {
-        // TODO Login signal
-        return [RACSignal return:@YES];
+    @weakify(self)
+    RACCommand *command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id _) {
+        @strongify(self)
+        // TODO Add webView
+        return [self.loginService authenticateWithWebView:nil];
     }];
+    [[[command.executionSignals
+            flattenMap:^RACStream *(id value) {
+                return value;
+            }]
+            ignore:@NO]
+            subscribeNext:^(NSNumber *loggedIn) {
+                NSLog(@"Result = %@", loggedIn);
+            }];
+    self.loginButton.rac_command = command;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

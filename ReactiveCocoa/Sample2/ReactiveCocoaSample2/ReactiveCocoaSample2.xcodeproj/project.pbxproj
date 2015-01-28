@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5DAEB4B763598BFB6C8F30CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25E9D2E1E4B6BB359213BF /* libPods.a */; };
-		8108636E4A36FD34D3B1DC2A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108634CF2C9B484988627E6 /* LoginViewController.m */; };
-		810867E999A20B75CFDCC433 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CAEB09D4445CF966321 /* MainViewController.m */; };
+		810861006AED25B0FFB40887 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086DAADB6B5B833E54B63B /* LoginViewController.m */; };
+		810861BAD3C20EA408340B99 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086C3060A6C27EF07A197C /* MainViewController.m */; };
+		81086447370261899E3D2DC9 /* RequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086930B610058615E93022 /* RequestBuilder.m */; };
+		810864FADABF65ACB3E105AA /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086E136972C29148E29F5E /* APIClient.m */; };
+		8108664C93575FEFAE601478 /* NSURL+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 810866B657B356B48849685A /* NSURL+Utilities.m */; };
+		81086BCBA1869C05842D33F4 /* UIWebView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086F39473B4370D5CE2E82 /* UIWebView+RAC.m */; };
+		81086D1F85197BC6CC2C8AE0 /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086BFEB389466869437237 /* LoginService.m */; };
+		81086F158B966733EA353DE4 /* RACSignal+JSONify.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086A64679890A0957F2A04 /* RACSignal+JSONify.m */; };
+		81086F31F32622A920A94EB2 /* NSJSONSerialization+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108622E16D5203FD8B5BC8D /* NSJSONSerialization+RAC.m */; };
+		81086FE716EBCDE8FD2C4FD8 /* RequestBuilder+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 810864E50CEE129CFCA9D5EA /* RequestBuilder+Authorization.m */; };
 		A13BEB111A790E0E00E02C00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BEB101A790E0E00E02C00 /* main.m */; };
 		A13BEB141A790E0E00E02C00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BEB131A790E0E00E02C00 /* AppDelegate.m */; };
 		A13BEB1C1A790E0E00E02C00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13BEB1B1A790E0E00E02C00 /* Images.xcassets */; };
@@ -30,10 +38,27 @@
 /* Begin PBXFileReference section */
 		1C3761D84B09E66FD51D2AA3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		27FA837B290512E669D4C416 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		8108601F763E593F98104956 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		8108634CF2C9B484988627E6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		81086C786EB2E7B5936EE21F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		81086CAEB09D4445CF966321 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8108605BB895F6383BB9359C /* NSURL+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Utilities.h"; sourceTree = "<group>"; };
+		81086217348CA824BF1F1FA5 /* RequestBuilder+Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestBuilder+Authorization.h"; sourceTree = "<group>"; };
+		8108622E16D5203FD8B5BC8D /* NSJSONSerialization+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+RAC.m"; sourceTree = "<group>"; };
+		810863541BDF42906F660F56 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		810864E50CEE129CFCA9D5EA /* RequestBuilder+Authorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestBuilder+Authorization.m"; sourceTree = "<group>"; };
+		810865841A5DDE397BADEB43 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		810866B657B356B48849685A /* NSURL+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Utilities.m"; sourceTree = "<group>"; };
+		810867954553A2ED723B6437 /* NSJSONSerialization+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+RAC.h"; sourceTree = "<group>"; };
+		81086930B610058615E93022 /* RequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestBuilder.m; sourceTree = "<group>"; };
+		81086A203A59071A552C6550 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		81086A5627372DD4388C63C8 /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
+		81086A64679890A0957F2A04 /* RACSignal+JSONify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+JSONify.m"; sourceTree = "<group>"; };
+		81086BFEB389466869437237 /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
+		81086C3060A6C27EF07A197C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		81086C623CA66E7169362C6F /* UIWebView+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RAC.h"; sourceTree = "<group>"; };
+		81086D5137E9392A52FF943E /* ReactiveCocoaSample2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoaSample2-Prefix.pch"; sourceTree = "<group>"; };
+		81086DA12BC93B8839858052 /* RequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestBuilder.h; sourceTree = "<group>"; };
+		81086DAADB6B5B833E54B63B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		81086E136972C29148E29F5E /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		81086F39473B4370D5CE2E82 /* UIWebView+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RAC.m"; sourceTree = "<group>"; };
+		81086FDCE6B3C53BBC0B9CCD /* RACSignal+JSONify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+JSONify.h"; sourceTree = "<group>"; };
 		9D25E9D2E1E4B6BB359213BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13BEB0B1A790E0E00E02C00 /* ReactiveCocoaSample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaSample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13BEB0F1A790E0E00E02C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,31 +91,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		810860DF03235D3A6473D3B7 /* MainViewController */ = {
+		8108633C000DD2F37BEE0BC2 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				81086CAEB09D4445CF966321 /* MainViewController.m */,
-				8108601F763E593F98104956 /* MainViewController.h */,
+				81086FDCE6B3C53BBC0B9CCD /* RACSignal+JSONify.h */,
+				81086A64679890A0957F2A04 /* RACSignal+JSONify.m */,
+				8108622E16D5203FD8B5BC8D /* NSJSONSerialization+RAC.m */,
+				810867954553A2ED723B6437 /* NSJSONSerialization+RAC.h */,
 			);
-			path = MainViewController;
+			path = JSON;
 			sourceTree = "<group>";
 		};
-		810861710330577381103017 /* LoginViewController */ = {
+		8108650E80CF5CC3E3380131 /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8108634CF2C9B484988627E6 /* LoginViewController.m */,
-				81086C786EB2E7B5936EE21F /* LoginViewController.h */,
+				81086DAADB6B5B833E54B63B /* LoginViewController.m */,
+				81086A203A59071A552C6550 /* LoginViewController.h */,
 			);
 			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		8108694B95C5DFBE653407A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81086BFEB389466869437237 /* LoginService.m */,
+				81086A5627372DD4388C63C8 /* LoginService.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81086BFBAE5A9C9015D8B4FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8108633C000DD2F37BEE0BC2 /* JSON */,
+				81086F39473B4370D5CE2E82 /* UIWebView+RAC.m */,
+				81086C623CA66E7169362C6F /* UIWebView+RAC.h */,
+				810866B657B356B48849685A /* NSURL+Utilities.m */,
+				8108605BB895F6383BB9359C /* NSURL+Utilities.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		81086C1B809E94CA7D488BCB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				81086E136972C29148E29F5E /* APIClient.m */,
+				810865841A5DDE397BADEB43 /* APIClient.h */,
+				81086E619CBB7D0F2D6EEEF2 /* RequestBuilder */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		81086E619CBB7D0F2D6EEEF2 /* RequestBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				81086DA12BC93B8839858052 /* RequestBuilder.h */,
+				81086930B610058615E93022 /* RequestBuilder.m */,
+				810864E50CEE129CFCA9D5EA /* RequestBuilder+Authorization.m */,
+				81086217348CA824BF1F1FA5 /* RequestBuilder+Authorization.h */,
+			);
+			path = RequestBuilder;
 			sourceTree = "<group>";
 		};
 		81086E9A355DCD27F183B256 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				810861710330577381103017 /* LoginViewController */,
-				810860DF03235D3A6473D3B7 /* MainViewController */,
+				81086ED26CC03CC047247038 /* UI */,
+				8108694B95C5DFBE653407A9 /* Model */,
+				81086C1B809E94CA7D488BCB /* Networking */,
+				81086BFBAE5A9C9015D8B4FC /* Utils */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		81086ED26CC03CC047247038 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8108650E80CF5CC3E3380131 /* LoginViewController */,
+				81086FDAF34753350F6EF805 /* MainViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		81086FDAF34753350F6EF805 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81086C3060A6C27EF07A197C /* MainViewController.m */,
+				810863541BDF42906F660F56 /* MainViewController.h */,
+			);
+			path = MainViewController;
 			sourceTree = "<group>";
 		};
 		897D283BFF818EF1BAC797B7 /* Frameworks */ = {
@@ -130,6 +219,7 @@
 				A13BEB1D1A790E0E00E02C00 /* LaunchScreen.xib */,
 				A13BEB0E1A790E0E00E02C00 /* Supporting Files */,
 				81086E9A355DCD27F183B256 /* Classes */,
+				81086D5137E9392A52FF943E /* ReactiveCocoaSample2-Prefix.pch */,
 			);
 			path = ReactiveCocoaSample2;
 			sourceTree = "<group>";
@@ -305,8 +395,16 @@
 			files = (
 				A13BEB141A790E0E00E02C00 /* AppDelegate.m in Sources */,
 				A13BEB111A790E0E00E02C00 /* main.m in Sources */,
-				8108636E4A36FD34D3B1DC2A /* LoginViewController.m in Sources */,
-				810867E999A20B75CFDCC433 /* MainViewController.m in Sources */,
+				810861006AED25B0FFB40887 /* LoginViewController.m in Sources */,
+				810861BAD3C20EA408340B99 /* MainViewController.m in Sources */,
+				81086D1F85197BC6CC2C8AE0 /* LoginService.m in Sources */,
+				810864FADABF65ACB3E105AA /* APIClient.m in Sources */,
+				81086F158B966733EA353DE4 /* RACSignal+JSONify.m in Sources */,
+				81086F31F32622A920A94EB2 /* NSJSONSerialization+RAC.m in Sources */,
+				81086447370261899E3D2DC9 /* RequestBuilder.m in Sources */,
+				81086FE716EBCDE8FD2C4FD8 /* RequestBuilder+Authorization.m in Sources */,
+				81086BCBA1869C05842D33F4 /* UIWebView+RAC.m in Sources */,
+				8108664C93575FEFAE601478 /* NSURL+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +519,7 @@
 			baseConfigurationReference = 27FA837B290512E669D4C416 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/ReactiveCocoaSample2-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaSample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +532,7 @@
 			baseConfigurationReference = 1C3761D84B09E66FD51D2AA3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/ReactiveCocoaSample2-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaSample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

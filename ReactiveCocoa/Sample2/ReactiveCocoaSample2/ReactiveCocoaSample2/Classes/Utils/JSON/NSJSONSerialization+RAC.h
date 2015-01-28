@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController
+@interface NSJSONSerialization (RAC)
++ (RACSignal *)deserialize:(NSData *)data;
 @end

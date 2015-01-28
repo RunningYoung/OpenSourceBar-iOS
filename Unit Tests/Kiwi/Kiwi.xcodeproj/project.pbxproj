@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D925BE11A77D27E002C3A0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D925BE01A77D27E002C3A0B /* main.m */; };
+		1D925BE41A77D27E002C3A0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D925BE31A77D27E002C3A0B /* AppDelegate.m */; };
+		1D925BE71A77D27E002C3A0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D925BE61A77D27E002C3A0B /* ViewController.m */; };
+		1D925BEA1A77D27E002C3A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D925BE81A77D27E002C3A0B /* Main.storyboard */; };
+		1D925BEC1A77D27E002C3A0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D925BEB1A77D27E002C3A0B /* Images.xcassets */; };
+		1D925BEF1A77D27E002C3A0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D925BED1A77D27E002C3A0B /* LaunchScreen.xib */; };
+		1D925BFB1A77D27E002C3A0B /* KiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D925BFA1A77D27E002C3A0B /* KiwiTests.m */; };
+		37B64B31A948914AB111A534 /* UTNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B647A2E6AE14B8045CD01B /* UTNetworkService.m */; };
+		37B64CB55D43E54E3F4B5065 /* UTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6460799721D9D51D52FD6 /* UTSession.m */; };
+		F41917CC8A807314FF802AC2 /* libPods-KiwiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B7DCAE2D38636B008F6EA6 /* libPods-KiwiTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D925BF51A77D27E002C3A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D925BD31A77D27E002C3A0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D925BDA1A77D27E002C3A0B;
+			remoteInfo = Kiwi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D925BDB1A77D27E002C3A0B /* Kiwi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiwi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D925BDF1A77D27E002C3A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D925BE01A77D27E002C3A0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D925BE21A77D27E002C3A0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D925BE31A77D27E002C3A0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D925BE51A77D27E002C3A0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D925BE61A77D27E002C3A0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D925BE91A77D27E002C3A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D925BEB1A77D27E002C3A0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D925BEE1A77D27E002C3A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D925BF41A77D27E002C3A0B /* KiwiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D925BF91A77D27E002C3A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D925BFA1A77D27E002C3A0B /* KiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiTests.m; sourceTree = "<group>"; };
+		37B6416853F19AA7ECA700EE /* UTNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTNetworkService.h; sourceTree = "<group>"; };
+		37B6439B55B0C72B6701AD28 /* UTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTSession.h; sourceTree = "<group>"; };
+		37B6460799721D9D51D52FD6 /* UTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTSession.m; sourceTree = "<group>"; };
+		37B647A2E6AE14B8045CD01B /* UTNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTNetworkService.m; sourceTree = "<group>"; };
+		4FFB008CAE1F261AC33DFDA2 /* Pods-KiwiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiTests/Pods-KiwiTests.release.xcconfig"; sourceTree = "<group>"; };
+		57E391CB810C1AA8554FA82B /* Pods-KiwiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiTests/Pods-KiwiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B7DCAE2D38636B008F6EA6 /* libPods-KiwiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D925BD81A77D27E002C3A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D925BF11A77D27E002C3A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41917CC8A807314FF802AC2 /* libPods-KiwiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072BD534DF67389953B0DAC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B7DCAE2D38636B008F6EA6 /* libPods-KiwiTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D925BD21A77D27E002C3A0B = {
+			isa = PBXGroup;
+			children = (
+				1D925BDD1A77D27E002C3A0B /* Kiwi */,
+				1D925BF71A77D27E002C3A0B /* KiwiTests */,
+				1D925BDC1A77D27E002C3A0B /* Products */,
+				831182A65B0D8F3239AC8987 /* Pods */,
+				072BD534DF67389953B0DAC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D925BDC1A77D27E002C3A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D925BDB1A77D27E002C3A0B /* Kiwi.app */,
+				1D925BF41A77D27E002C3A0B /* KiwiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D925BDD1A77D27E002C3A0B /* Kiwi */ = {
+			isa = PBXGroup;
+			children = (
+				1D925BE21A77D27E002C3A0B /* AppDelegate.h */,
+				1D925BE31A77D27E002C3A0B /* AppDelegate.m */,
+				1D925BE51A77D27E002C3A0B /* ViewController.h */,
+				1D925BE61A77D27E002C3A0B /* ViewController.m */,
+				1D925BE81A77D27E002C3A0B /* Main.storyboard */,
+				1D925BEB1A77D27E002C3A0B /* Images.xcassets */,
+				1D925BED1A77D27E002C3A0B /* LaunchScreen.xib */,
+				1D925BDE1A77D27E002C3A0B /* Supporting Files */,
+				37B649E47BF9CB1A495ACBAA /* Classes */,
+			);
+			path = Kiwi;
+			sourceTree = "<group>";
+		};
+		1D925BDE1A77D27E002C3A0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D925BDF1A77D27E002C3A0B /* Info.plist */,
+				1D925BE01A77D27E002C3A0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D925BF71A77D27E002C3A0B /* KiwiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D925BFA1A77D27E002C3A0B /* KiwiTests.m */,
+				1D925BF81A77D27E002C3A0B /* Supporting Files */,
+			);
+			path = KiwiTests;
+			sourceTree = "<group>";
+		};
+		1D925BF81A77D27E002C3A0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D925BF91A77D27E002C3A0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B649E47BF9CB1A495ACBAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37B6460799721D9D51D52FD6 /* UTSession.m */,
+				37B6439B55B0C72B6701AD28 /* UTSession.h */,
+				37B647A2E6AE14B8045CD01B /* UTNetworkService.m */,
+				37B6416853F19AA7ECA700EE /* UTNetworkService.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		831182A65B0D8F3239AC8987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57E391CB810C1AA8554FA82B /* Pods-KiwiTests.debug.xcconfig */,
+				4FFB008CAE1F261AC33DFDA2 /* Pods-KiwiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D925BDA1A77D27E002C3A0B /* Kiwi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D925BFE1A77D27E002C3A0B /* Build configuration list for PBXNativeTarget "Kiwi" */;
+			buildPhases = (
+				1D925BD71A77D27E002C3A0B /* Sources */,
+				1D925BD81A77D27E002C3A0B /* Frameworks */,
+				1D925BD91A77D27E002C3A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kiwi;
+			productName = Kiwi;
+			productReference = 1D925BDB1A77D27E002C3A0B /* Kiwi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D925BF31A77D27E002C3A0B /* KiwiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D925C011A77D27E002C3A0B /* Build configuration list for PBXNativeTarget "KiwiTests" */;
+			buildPhases = (
+				1745F745B08D2FC0EF2DA8A6 /* Check Pods Manifest.lock */,
+				1D925BF01A77D27E002C3A0B /* Sources */,
+				1D925BF11A77D27E002C3A0B /* Frameworks */,
+				1D925BF21A77D27E002C3A0B /* Resources */,
+				60CF0C8D3653832B0E158772 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D925BF61A77D27E002C3A0B /* PBXTargetDependency */,
+			);
+			name = KiwiTests;
+			productName = KiwiTests;
+			productReference = 1D925BF41A77D27E002C3A0B /* KiwiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D925BD31A77D27E002C3A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paweł Janeczek";
+				TargetAttributes = {
+					1D925BDA1A77D27E002C3A0B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1D925BF31A77D27E002C3A0B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1D925BDA1A77D27E002C3A0B;
+					};
+				};
+			};
+			buildConfigurationList = 1D925BD61A77D27E002C3A0B /* Build configuration list for PBXProject "Kiwi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D925BD21A77D27E002C3A0B;
+			productRefGroup = 1D925BDC1A77D27E002C3A0B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				1D925BDA1A77D27E002C3A0B /* Kiwi */,
+				1D925BF31A77D27E002C3A0B /* KiwiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D925BD91A77D27E002C3A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D925BEA1A77D27E002C3A0B /* Main.storyboard in Resources */,
+				1D925BEF1A77D27E002C3A0B /* LaunchScreen.xib in Resources */,
+				1D925BEC1A77D27E002C3A0B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D925BF21A77D27E002C3A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1745F745B08D2FC0EF2DA8A6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60CF0C8D3653832B0E158772 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiTests/Pods-KiwiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D925BD71A77D27E002C3A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D925BE71A77D27E002C3A0B /* ViewController.m in Sources */,
+				1D925BE41A77D27E002C3A0B /* AppDelegate.m in Sources */,
+				1D925BE11A77D27E002C3A0B /* main.m in Sources */,
+				37B64CB55D43E54E3F4B5065 /* UTSession.m in Sources */,
+				37B64B31A948914AB111A534 /* UTNetworkService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D925BF01A77D27E002C3A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D925BFB1A77D27E002C3A0B /* KiwiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D925BF61A77D27E002C3A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D925BDA1A77D27E002C3A0B /* Kiwi */;
+			targetProxy = 1D925BF51A77D27E002C3A0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D925BE81A77D27E002C3A0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D925BE91A77D27E002C3A0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D925BED1A77D27E002C3A0B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D925BEE1A77D27E002C3A0B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D925BFC1A77D27E002C3A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D925BFD1A77D27E002C3A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D925BFF1A77D27E002C3A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kiwi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D925C001A77D27E002C3A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kiwi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D925C021A77D27E002C3A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E391CB810C1AA8554FA82B /* Pods-KiwiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KiwiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiwi.app/Kiwi";
+			};
+			name = Debug;
+		};
+		1D925C031A77D27E002C3A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFB008CAE1F261AC33DFDA2 /* Pods-KiwiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KiwiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiwi.app/Kiwi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D925BD61A77D27E002C3A0B /* Build configuration list for PBXProject "Kiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D925BFC1A77D27E002C3A0B /* Debug */,
+				1D925BFD1A77D27E002C3A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D925BFE1A77D27E002C3A0B /* Build configuration list for PBXNativeTarget "Kiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D925BFF1A77D27E002C3A0B /* Debug */,
+				1D925C001A77D27E002C3A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D925C011A77D27E002C3A0B /* Build configuration list for PBXNativeTarget "KiwiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D925C021A77D27E002C3A0B /* Debug */,
+				1D925C031A77D27E002C3A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D925BD31A77D27E002C3A0B /* Project object */;
+}

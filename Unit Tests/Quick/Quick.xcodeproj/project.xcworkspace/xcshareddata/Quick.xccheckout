@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>46CC79F8-1DD3-47EF-8007-B2FD017AACE1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Quick</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFA6F67FDED82D4D4DAAE18959940661D24C31DA</key>
+		<string>https://github.com/Polidea/OpenSourceBar-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Unit Tests/Quick/Quick.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFA6F67FDED82D4D4DAAE18959940661D24C31DA</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Polidea/OpenSourceBar-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFA6F67FDED82D4D4DAAE18959940661D24C31DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFA6F67FDED82D4D4DAAE18959940661D24C31DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenSourceBar-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

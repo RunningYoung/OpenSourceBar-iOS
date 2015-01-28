@@ -1,0 +1,14 @@
+{
+  "timestamp" : 1422374056,
+  "article_text" : "Article text",
+  "rating" : 3.5,
+  "author" : {
+    "name" : "John",
+    "email" : "john@example.com"
+  },
+  "comments" : [
+    "super article",
+    "boring"
+  ],
+  "status" : "normal"
+}

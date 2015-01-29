@@ -1,0 +1,18 @@
+{
+  "s58" : "EBLoginViewController",
+  "u0U" : "writeClientPassword",
+  "n0M" : "_loginErrorField",
+  "setH9R" : "setWriteClientID",
+  "setH7q" : "setReadClientID",
+  "a0B" : "EBAppDelegate",
+  "s48" : "buttonLogin",
+  "j0r" : "_clientIDField",
+  "setS48" : "setButtonLogin",
+  "h9R" : "writeClientID",
+  "d1L" : "readClientPassword",
+  "h7q" : "readClientID",
+  "setU0U" : "setWriteClientPassword",
+  "i8h" : "EBWelcomeViewController",
+  "setD1L" : "setReadClientPassword",
+  "q0Z" : "_clientPasswordField"
+}

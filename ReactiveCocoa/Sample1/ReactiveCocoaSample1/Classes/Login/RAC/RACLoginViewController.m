@@ -7,6 +7,7 @@
 #import "LoginView.h"
 #import "LoginService.h"
 #import "MainViewController.h"
+#import "UIAlertController+Utils.h"
 
 @interface RACLoginViewController ()
 @property(nonatomic, strong) LoginService *loginService;
@@ -70,15 +71,12 @@
                                                             return [self signUpSignal];
                                                         }];
 
-    [[signUpCommand.executionSignals
-            flattenMap:^RACStream *(RACSignal *signal) {
-                return signal;
-            }]
+    [[signUpCommand.executionSignals flatten]
             subscribeNext:^(NSNumber *success) {
                 if (success.boolValue) {
                     [self.navigationController pushViewController:[MainViewController new] animated:YES];
                 } else {
-                    [self showWrongCredentialAlert];
+                    [UIAlertController showWrongCredentialAlertInViewController:self];
                 }
             }];
 
@@ -88,23 +86,6 @@
 - (RACSignal *)signUpSignal {
     return [self.loginService signInWithUsername:self.loginView.username.text
                                         password:self.loginView.password.text];
-}
-
-#pragma mark - Helpers
-
-- (void)showWrongCredentialAlert {
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Error"
-                                                                             message:@"Wrong credentials"
-                                                                      preferredStyle:UIAlertControllerStyleAlert];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"OK"
-                                                        style:UIAlertActionStyleCancel
-                                                      handler:^(UIAlertAction *action) {
-                                                          [self dismissViewControllerAnimated:YES
-                                                                                   completion:nil];
-                                                      }]];
-    [self presentViewController:alertController
-                       animated:YES
-                     completion:nil];
 }
 
 @end

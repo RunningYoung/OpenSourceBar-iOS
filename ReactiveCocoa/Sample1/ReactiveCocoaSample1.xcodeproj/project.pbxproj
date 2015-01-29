@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810863531F762952BC9839CD /* UIAlertController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086D1DE0F399DA02B77E78 /* UIAlertController+Utils.m */; };
 		8108646190BD4F7AE757E403 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086722ECC90F02999602D5 /* RootViewController.m */; };
 		81086501480A1538E60E73E6 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810860EE5BDE520E089C6814 /* LoginView.m */; };
 		810865652279BA0B6F233D41 /* RACLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086C7EFAE8FF62D7C7C45A /* RACLoginViewController.m */; };
@@ -43,6 +44,7 @@
 		81086503D21E8275658A8E25 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		810865348AED7096A43858FB /* UIButton+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utils.m"; sourceTree = "<group>"; };
 		81086722ECC90F02999602D5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		81086876CFC2079C5B36C504 /* UIAlertController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Utils.h"; sourceTree = "<group>"; };
 		810868E5B956F6CBFC9B272C /* RACLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACLoginViewController.h; sourceTree = "<group>"; };
 		8108690D764F55CA7A7DD86E /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
 		810869373B3963EB14B13486 /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		81086AEC59C52D8D71E555DE /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
 		81086B70E03DBBAA2FA6176A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		81086C7EFAE8FF62D7C7C45A /* RACLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACLoginViewController.m; sourceTree = "<group>"; };
+		81086D1DE0F399DA02B77E78 /* UIAlertController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Utils.m"; sourceTree = "<group>"; };
 		81086E05B9A2A58814DC53BC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		81086E7B12D042F1920B9F1B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		81086F6596656981DE2A1BFB /* SampleApp-pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SampleApp-pch.h"; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 			children = (
 				810865348AED7096A43858FB /* UIButton+Utils.m */,
 				8108621397B35070EEFF066B /* UIButton+Utils.h */,
+				81086D1DE0F399DA02B77E78 /* UIAlertController+Utils.m */,
+				81086876CFC2079C5B36C504 /* UIAlertController+Utils.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 				81086501480A1538E60E73E6 /* LoginView.m in Sources */,
 				81086AEB19F10E033E3FA812 /* LoginService.m in Sources */,
 				81086827B74F58114A8F2E67 /* MainViewController.m in Sources */,
+				810863531F762952BC9839CD /* UIAlertController+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

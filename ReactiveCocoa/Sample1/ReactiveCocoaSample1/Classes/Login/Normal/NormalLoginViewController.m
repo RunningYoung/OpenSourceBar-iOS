@@ -7,6 +7,7 @@
 #import "LoginView.h"
 #import "LoginService.h"
 #import "MainViewController.h"
+#import "UIAlertController+Utils.h"
 
 @interface NormalLoginViewController ()
 @property(nonatomic, strong) LoginService *loginService;
@@ -79,27 +80,10 @@
                                        if (success) {
                                            [self.navigationController pushViewController:[MainViewController new] animated:YES];
                                        } else {
-                                           [self showWrongCredentialAlert];
+                                           [UIAlertController showWrongCredentialAlertInViewController:self];
                                        }
                                    }];
     }
-}
-
-#pragma mark - Helpers
-
-- (void)showWrongCredentialAlert {
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Error"
-                                                                             message:@"Wrong credentials"
-                                                                      preferredStyle:UIAlertControllerStyleAlert];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"OK"
-                                                        style:UIAlertActionStyleCancel
-                                                      handler:^(UIAlertAction *action) {
-                                                          [self dismissViewControllerAnimated:YES
-                                                                                   completion:nil];
-                                                      }]];
-    [self presentViewController:alertController
-                       animated:YES
-                     completion:nil];
 }
 
 @end

@@ -4,11 +4,16 @@
 //
 
 #import "LoginViewController.h"
-#import "ALView+PureLayout.h"
 #import "LoginService.h"
+#import "UIBarButtonItem+BlocksKit.h"
+#import "ALView+PureLayout.h"
 
 @interface LoginViewController ()
-@property(nonatomic, strong) UIButton *loginButton;
+@property(nonatomic, strong) RACSubject *dismissSubject;
+@property(nonatomic, strong) RACSubject *loggedInSubject;
+@property(nonatomic, readwrite) LoginService *loginService;
+
+@property(nonatomic, strong) UIWebView *webView;
 @end
 
 @implementation LoginViewController
@@ -20,49 +25,60 @@
 - (instancetype)initWithLoginService:(LoginService *)loginService {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
-        _loginService = loginService;
+        self.loginService = loginService;
+        self.dismissSubject = [RACSubject subject];
+        self.loggedInSubject = [RACSubject subject];
     }
 
     return self;
 }
 
+- (RACSignal *)dismissSingal {
+    return self.dismissSubject;
+}
+
+- (RACSignal *)loggedInSignal {
+    return self.loggedInSubject;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-
-    [self.view addSubview:self.loginButton];
-
-    @weakify(self)
-    RACCommand *command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id _) {
-        @strongify(self)
-        // TODO Add webView
-        return [self.loginService authenticateWithWebView:nil];
-    }];
-    [[[command.executionSignals
-            flattenMap:^RACStream *(id value) {
-                return value;
-            }]
-            ignore:@NO]
-            subscribeNext:^(NSNumber *loggedIn) {
-                NSLog(@"Result = %@", loggedIn);
-            }];
-    self.loginButton.rac_command = command;
+    [self.view addSubview:self.webView];
+    [self configureDismissAction];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.loginButton autoCenterInSuperview];
+    [self.webView autoPinEdgesToSuperviewEdgesWithInsets:ALEdgeInsetsZero];
 }
 
-- (UIButton *)loginButton {
-    if (!_loginButton) {
-        UIButton *loginButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        loginButton.translatesAutoresizingMaskIntoConstraints = NO;
-        [loginButton setTitle:@"LOGIN" forState:UIControlStateNormal];
-        _loginButton = loginButton;
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    @weakify(self)
+    [[self.loginService authenticateWithWebView:self.webView]
+            subscribeNext:^(NSNumber *loggedIn) {
+                @strongify(self)
+                [self.loggedInSubject sendNext:loggedIn];
+            }];
+}
+
+#pragma mark - Stuff
+
+- (void)configureDismissAction {
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] bk_initWithTitle:@"Cancel"
+                                                                                style:UIBarButtonItemStylePlain
+                                                                              handler:^(id _) {
+                                                                                  [self.dismissSubject sendCompleted];
+                                                                              }];
+}
+
+#pragma mark - WebView
+
+- (UIWebView *)webView {
+    if (!_webView) {
+        _webView = [UIWebView newAutoLayoutView];
     }
-    return _loginButton;
+    return _webView;
 }
-
 
 @end

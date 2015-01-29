@@ -11,6 +11,9 @@
 @interface LoginViewController : UIViewController
 @property(nonatomic, readonly) LoginService *loginService;
 
+@property(nonatomic, readonly) RACSignal *dismissSingal;
+@property(nonatomic, readonly) RACSignal *loggedInSignal;
+
 + (instancetype)controllerWithLoginService:(LoginService *)loginService;
 - (instancetype)initWithLoginService:(LoginService *)loginService;
 

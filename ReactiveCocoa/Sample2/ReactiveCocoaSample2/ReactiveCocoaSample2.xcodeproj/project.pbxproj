@@ -13,6 +13,7 @@
 		81086447370261899E3D2DC9 /* RequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086930B610058615E93022 /* RequestBuilder.m */; };
 		810864FADABF65ACB3E105AA /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086E136972C29148E29F5E /* APIClient.m */; };
 		8108664C93575FEFAE601478 /* NSURL+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 810866B657B356B48849685A /* NSURL+Utilities.m */; };
+		81086A7EBF085253D7D6F06D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108615B2368E0B164E7BFA7 /* RootViewController.m */; };
 		81086BCBA1869C05842D33F4 /* UIWebView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086F39473B4370D5CE2E82 /* UIWebView+RAC.m */; };
 		81086D1F85197BC6CC2C8AE0 /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086BFEB389466869437237 /* LoginService.m */; };
 		81086F158B966733EA353DE4 /* RACSignal+JSONify.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086A64679890A0957F2A04 /* RACSignal+JSONify.m */; };
@@ -39,6 +40,8 @@
 		1C3761D84B09E66FD51D2AA3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		27FA837B290512E669D4C416 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8108605BB895F6383BB9359C /* NSURL+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Utilities.h"; sourceTree = "<group>"; };
+		8108615B2368E0B164E7BFA7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		810861D6C7C8A90668715DEA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		81086217348CA824BF1F1FA5 /* RequestBuilder+Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestBuilder+Authorization.h"; sourceTree = "<group>"; };
 		8108622E16D5203FD8B5BC8D /* NSJSONSerialization+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+RAC.m"; sourceTree = "<group>"; };
 		810863541BDF42906F660F56 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -91,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81086229F0008C77D456B59A /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8108615B2368E0B164E7BFA7 /* RootViewController.m */,
+				810861D6C7C8A90668715DEA /* RootViewController.h */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
 		8108633C000DD2F37BEE0BC2 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +181,7 @@
 			children = (
 				8108650E80CF5CC3E3380131 /* LoginViewController */,
 				81086FDAF34753350F6EF805 /* MainViewController */,
+				81086229F0008C77D456B59A /* RootViewController */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -405,6 +418,7 @@
 				81086FE716EBCDE8FD2C4FD8 /* RequestBuilder+Authorization.m in Sources */,
 				81086BCBA1869C05842D33F4 /* UIWebView+RAC.m in Sources */,
 				8108664C93575FEFAE601478 /* NSURL+Utilities.m in Sources */,
+				81086A7EBF085253D7D6F06D /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

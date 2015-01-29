@@ -11,7 +11,7 @@
 @class NSString, UIWindow;
 
 __attribute__((visibility("hidden")))
-@interface a0B : UIResponder <UIApplicationDelegate>
+@interface u7Z : UIResponder <UIApplicationDelegate>
 {
     UIWindow *_window;
 }

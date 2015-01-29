@@ -4,57 +4,57 @@
 
 // Classes
 #ifndef EBAppDelegate
-#define EBAppDelegate a0B
+#define EBAppDelegate u7Z
 #endif // EBAppDelegate
 #ifndef EBLoginViewController
-#define EBLoginViewController s58
+#define EBLoginViewController u44
 #endif // EBLoginViewController
 #ifndef EBWelcomeViewController
-#define EBWelcomeViewController i8h
+#define EBWelcomeViewController a9W
 #endif // EBWelcomeViewController
 
 // Categories
 
 // Methods
 #ifndef writeClientID
-#define writeClientID h9R
+#define writeClientID c8W
 #endif // writeClientID
 #ifndef setWriteClientID
-#define setWriteClientID setH9R
+#define setWriteClientID setC8W
 #endif // setWriteClientID
 #ifndef readClientPassword
-#define readClientPassword d1L
+#define readClientPassword t1o
 #endif // readClientPassword
 #ifndef setReadClientPassword
-#define setReadClientPassword setD1L
+#define setReadClientPassword setT1o
 #endif // setReadClientPassword
 #ifndef buttonLogin
-#define buttonLogin s48
+#define buttonLogin d2T
 #endif // buttonLogin
 #ifndef setButtonLogin
-#define setButtonLogin setS48
+#define setButtonLogin setD2T
 #endif // setButtonLogin
 #ifndef writeClientPassword
-#define writeClientPassword u0U
+#define writeClientPassword i5H
 #endif // writeClientPassword
 #ifndef setWriteClientPassword
-#define setWriteClientPassword setU0U
+#define setWriteClientPassword setI5H
 #endif // setWriteClientPassword
 #ifndef readClientID
-#define readClientID h7q
+#define readClientID m4s
 #endif // readClientID
 #ifndef setReadClientID
-#define setReadClientID setH7q
+#define setReadClientID setM4s
 #endif // setReadClientID
 
 // I-vars
 #ifndef _loginErrorField
-#define _loginErrorField n0M
+#define _loginErrorField q8Y
 #endif // _loginErrorField
 #ifndef _clientPasswordField
-#define _clientPasswordField q0Z
+#define _clientPasswordField a8l
 #endif // _clientPasswordField
 #ifndef _clientIDField
-#define _clientIDField j0r
+#define _clientIDField f3z
 #endif // _clientIDField
 

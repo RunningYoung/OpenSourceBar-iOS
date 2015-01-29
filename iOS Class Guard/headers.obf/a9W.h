@@ -7,7 +7,7 @@
 #import "UIViewController.h"
 
 __attribute__((visibility("hidden")))
-@interface i8h : UIViewController
+@interface a9W : UIViewController
 {
 }
 

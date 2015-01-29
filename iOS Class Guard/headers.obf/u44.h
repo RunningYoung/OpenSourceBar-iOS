@@ -9,19 +9,19 @@
 @class UILabel, UITextField;
 
 __attribute__((visibility("hidden")))
-@interface s58 : UIViewController
+@interface u44 : UIViewController
 {
-    UITextField *j0r;
-    UITextField *q0Z;
-    UILabel *n0M;
+    UITextField *f3z;
+    UITextField *a8l;
+    UILabel *q8Y;
 }
 
 - (void).cxx_destruct;
-- (void)s48:(id)arg1;
-- (void)u0U:(id)arg1;
-- (void)h9R:(id)arg1;
-- (id)d1L;
-- (id)h7q;
+- (void)d2T:(id)arg1;
+- (void)i5H:(id)arg1;
+- (void)c8W:(id)arg1;
+- (id)t1o;
+- (id)m4s;
 - (id)userDefaults;
 - (void)viewDidLoad;
 

@@ -9,7 +9,8 @@ CONFIGURATION=Release
 OBFUSCATION_SDK=iphonesimulator
 SDK=iphoneos
 
-git checkout ExampleBankingApp
+git reset --hard
+git clean -fdx
 
 rm -rf headers headers.obf build build.obf
 

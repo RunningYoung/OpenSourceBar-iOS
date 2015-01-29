@@ -46,6 +46,8 @@
 
 - (IBAction)buttonLogin:(id)sender
 {
+    NSException *testException = [NSException exceptionWithName:@"testException" reason:@"Testing deobfuscation" userInfo:nil];
+//    @throw testException;
     if(![_clientIDField.text isEqualToString:@"123"]) {
         _loginErrorField.text = @"Invalid ID";
         return;

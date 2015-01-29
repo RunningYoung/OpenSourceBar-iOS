@@ -5,9 +5,9 @@
 
 #import "RequestBuilder+Authorization.h"
 
-static NSString *ClientSecret = @"328839df85dd41d4216613568aa7cab82ed63cb8346619dc08db8c29beaf9895";
-static NSString *ClientID = @"371f58d73e234dcc89342931c211714b6fd6a60cfb719a1d3f6764648f34188f";
-static NSString *RedirectURLString = @"https://flark.io/coinbase_redirect.html";
+NSString *ClientSecret = @"328839df85dd41d4216613568aa7cab82ed63cb8346619dc08db8c29beaf9895";
+NSString *ClientID = @"371f58d73e234dcc89342931c211714b6fd6a60cfb719a1d3f6764648f34188f";
+NSString *RedirectURLString = @"https://flark.io/coinbase_redirect.html";
 
 @implementation RequestBuilder (Authorization)
 
@@ -17,10 +17,8 @@ static NSString *RedirectURLString = @"https://flark.io/coinbase_redirect.html";
     [urlString appendFormat:@"&client_id=%@", ClientID];
     [urlString appendFormat:@"&redirect_uri=%@", RedirectURLString];
     [urlString appendFormat:@"&scope=%@", @"user+balance"];
-    NSURL *tokenURL = [NSURL URLWithString:urlString relativeToURL:self.baseURL];
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:tokenURL];
-    request.HTTPMethod = @"POST";
-    return request;
+    NSURL *authURL = [NSURL URLWithString:urlString relativeToURL:self.baseURL];
+    return [NSMutableURLRequest requestWithURL:authURL];
 }
 
 - (NSURLRequest *)tokenRequestWithCode:(NSString *)code {
@@ -30,8 +28,10 @@ static NSString *RedirectURLString = @"https://flark.io/coinbase_redirect.html";
     [urlString appendFormat:@"&client_secret=%@", ClientSecret];
     [urlString appendFormat:@"&code=%@", code];
     [urlString appendFormat:@"&redirect_uri=%@", RedirectURLString];
-    NSURL *authURL = [NSURL URLWithString:urlString relativeToURL:self.baseURL];
-    return [NSMutableURLRequest requestWithURL:authURL];
+    NSURL *tokenURL = [NSURL URLWithString:urlString relativeToURL:self.baseURL];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:tokenURL];
+    request.HTTPMethod = @"POST";
+    return request;
 }
 
 @end

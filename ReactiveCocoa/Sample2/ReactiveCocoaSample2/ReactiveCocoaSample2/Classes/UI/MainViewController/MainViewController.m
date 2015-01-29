@@ -9,6 +9,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Main";
     self.view.backgroundColor = [UIColor greenColor];
 }
 

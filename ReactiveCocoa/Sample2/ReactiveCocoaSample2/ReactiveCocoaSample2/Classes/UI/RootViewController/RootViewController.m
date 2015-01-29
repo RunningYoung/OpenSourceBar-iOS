@@ -10,6 +10,7 @@
 #import "LoginService.h"
 #import "APIClient.h"
 #import "UIControl+BlocksKit.h"
+#import "MainViewController.h"
 
 @interface RootViewController ()
 @property(nonatomic, strong) UIButton *loginButton;
@@ -31,6 +32,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Hello";
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.loginButton];
 
@@ -50,17 +52,26 @@
 - (void)showLoginViewController {
     LoginViewController *loginViewController = [self loginViewController];
 
-    [loginViewController.dismissSingal subscribeCompleted:^{
+    [loginViewController.dismissSignal subscribeCompleted:^{
         [self dismissViewControllerAnimated:YES completion:nil];
     }];
 
+    @weakify(self)
     [[loginViewController.loggedInSignal logError]
             subscribeNext:^(NSNumber *isLoggedIn) {
-                // TODO show main VC
+                @strongify(self)
+                [self dismissViewControllerAnimated:YES completion:^{
+                    [self showMainViewController];
+                }];
             }];
 
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
     [self presentViewController:navigationController animated:YES completion:nil];
+}
+
+- (void)showMainViewController {
+    MainViewController *mainViewController = [MainViewController new];
+    [self.navigationController pushViewController:mainViewController animated:YES];
 }
 
 - (LoginViewController *)loginViewController {

@@ -26,14 +26,14 @@
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
         self.loginService = loginService;
-        self.dismissSubject = [RACSubject subject];
-        self.loggedInSubject = [RACSubject subject];
+        self.dismissSubject = [[RACSubject subject] setNameWithFormat:@"- dismiss"];
+        self.loggedInSubject = [[RACSubject subject] setNameWithFormat:@"- loggedIn"];
     }
 
     return self;
 }
 
-- (RACSignal *)dismissSingal {
+- (RACSignal *)dismissSignal {
     return self.dismissSubject;
 }
 
@@ -54,11 +54,13 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+
     @weakify(self)
     [[self.loginService authenticateWithWebView:self.webView]
             subscribeNext:^(NSNumber *loggedIn) {
                 @strongify(self)
                 [self.loggedInSubject sendNext:loggedIn];
+                [self.loggedInSubject sendCompleted];
             }];
 }
 

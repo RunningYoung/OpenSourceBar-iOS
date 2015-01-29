@@ -7,9 +7,8 @@
 #import "APIClient.h"
 #import "RequestBuilder.h"
 #import "RequestBuilder+Authorization.h"
-#import "UIWebView+RAC.h"
 #import "NSURL+Utilities.h"
-#import "RACSignal+JSONify.h"
+#import "UIWebView+RAC.h"
 
 @interface LoginService ()
 @property(nonatomic, readwrite, copy) NSString *accessToken;
@@ -32,17 +31,14 @@
 }
 
 - (RACSignal *)authenticateWithWebView:(UIWebView __weak *)webView {
-    RACSubject *authenticate = [RACSubject subject];
-
     @weakify(self)
-    [[[[[[webView
+    RACSignal *authenticate = [[[[[[webView
             shouldStartLoadSignal]
             flattenMap:^RACStream *(NSURL *url) {
                 @strongify(self)
                 NSURLRequest *request = [self.requestBuilder tokenRequestWithCode:url.coinbaseCode];
                 return [self.apiClient dataTaskWithRequest:request];
             }]
-            jsonify]
             map:^id(NSDictionary *JSON) {
                 return JSON[@"access_token"];
             }]
@@ -50,12 +46,23 @@
                 @strongify(self)
                 self.accessToken = accessToken;
             }]
-            map:^id(NSString *accessToken) {
-                return @(accessToken != nil);
+            logNext]
+            flattenMap:^RACStream *(NSString *accessToken) {
+                return accessToken != nil ? [RACSignal return:@YES] : [RACSignal error:[self missingTokenError]];
             }];
 
     [webView loadRequest:self.requestBuilder.authorizeRequest];
     return authenticate;
+}
+
+#pragma mark - Helper method
+
+- (NSError *)missingTokenError {
+    return [NSError errorWithDomain:[[NSBundle mainBundle] bundleIdentifier]
+                               code:-1
+                           userInfo:@{
+                                   NSLocalizedDescriptionKey : @"No access token found in response!"
+                           }];
 }
 
 @end

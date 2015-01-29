@@ -6,5 +6,7 @@
 #import <Foundation/Foundation.h>
 
 @interface UIWebView (RAC)
+@property(nonatomic, readonly) RACSubject *_shouldStartLoadSubject;
+
 - (RACSignal *)shouldStartLoadSignal;
 @end

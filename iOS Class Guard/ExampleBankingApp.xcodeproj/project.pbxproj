@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3B928119EFDAF100703C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3B928019EFDAF100703C03 /* Foundation.framework */; };
+		CB3B928319EFDAF100703C03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3B928219EFDAF100703C03 /* CoreGraphics.framework */; };
+		CB3B928519EFDAF100703C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3B928419EFDAF100703C03 /* UIKit.framework */; };
+		CB3B928B19EFDAF100703C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB3B928919EFDAF100703C03 /* InfoPlist.strings */; };
+		CB3B928D19EFDAF100703C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B928C19EFDAF100703C03 /* main.m */; };
+		CB3B929119EFDAF100703C03 /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B929019EFDAF100703C03 /* EBAppDelegate.m */; };
+		CB3B929419EFDAF100703C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3B929219EFDAF100703C03 /* Main.storyboard */; };
+		CB3B929C19EFDAF100703C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3B929B19EFDAF100703C03 /* Images.xcassets */; };
+		CB3B92A319EFDAF100703C03 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3B92A219EFDAF100703C03 /* XCTest.framework */; };
+		CB3B92A419EFDAF100703C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3B928019EFDAF100703C03 /* Foundation.framework */; };
+		CB3B92A519EFDAF100703C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3B928419EFDAF100703C03 /* UIKit.framework */; };
+		CB3B92AD19EFDAF100703C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB3B92AB19EFDAF100703C03 /* InfoPlist.strings */; };
+		CB3B92AF19EFDAF100703C03 /* ExampleBankingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B92AE19EFDAF100703C03 /* ExampleBankingAppTests.m */; };
+		CB3B92BA19EFEB0200703C03 /* EBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B92B919EFEB0200703C03 /* EBLoginViewController.m */; };
+		CB3B92BD19EFFD7A00703C03 /* EBWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B92BC19EFFD7A00703C03 /* EBWelcomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3B92A619EFDAF100703C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3B927519EFDAF100703C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3B927C19EFDAF100703C03;
+			remoteInfo = ExampleBankingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB3B927D19EFDAF100703C03 /* ExampleBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleBankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3B928019EFDAF100703C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB3B928219EFDAF100703C03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB3B928419EFDAF100703C03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB3B928819EFDAF100703C03 /* ExampleBankingApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleBankingApp-Info.plist"; sourceTree = "<group>"; };
+		CB3B928A19EFDAF100703C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB3B928C19EFDAF100703C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB3B928E19EFDAF100703C03 /* ExampleBankingApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleBankingApp-Prefix.pch"; sourceTree = "<group>"; };
+		CB3B928F19EFDAF100703C03 /* EBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
+		CB3B929019EFDAF100703C03 /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
+		CB3B929319EFDAF100703C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB3B929B19EFDAF100703C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB3B92A119EFDAF100703C03 /* ExampleBankingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleBankingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3B92A219EFDAF100703C03 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB3B92AA19EFDAF100703C03 /* ExampleBankingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleBankingAppTests-Info.plist"; sourceTree = "<group>"; };
+		CB3B92AC19EFDAF100703C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB3B92AE19EFDAF100703C03 /* ExampleBankingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleBankingAppTests.m; sourceTree = "<group>"; };
+		CB3B92B819EFEB0200703C03 /* EBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBLoginViewController.h; sourceTree = "<group>"; };
+		CB3B92B919EFEB0200703C03 /* EBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBLoginViewController.m; sourceTree = "<group>"; };
+		CB3B92BB19EFFD7A00703C03 /* EBWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBWelcomeViewController.h; sourceTree = "<group>"; };
+		CB3B92BC19EFFD7A00703C03 /* EBWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBWelcomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3B927A19EFDAF100703C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3B928319EFDAF100703C03 /* CoreGraphics.framework in Frameworks */,
+				CB3B928519EFDAF100703C03 /* UIKit.framework in Frameworks */,
+				CB3B928119EFDAF100703C03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3B929E19EFDAF100703C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3B92A319EFDAF100703C03 /* XCTest.framework in Frameworks */,
+				CB3B92A519EFDAF100703C03 /* UIKit.framework in Frameworks */,
+				CB3B92A419EFDAF100703C03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB3B927419EFDAF100703C03 = {
+			isa = PBXGroup;
+			children = (
+				CB3B928619EFDAF100703C03 /* ExampleBankingApp */,
+				CB3B92A819EFDAF100703C03 /* ExampleBankingAppTests */,
+				CB3B927F19EFDAF100703C03 /* Frameworks */,
+				CB3B927E19EFDAF100703C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3B927E19EFDAF100703C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B927D19EFDAF100703C03 /* ExampleBankingApp.app */,
+				CB3B92A119EFDAF100703C03 /* ExampleBankingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3B927F19EFDAF100703C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B928019EFDAF100703C03 /* Foundation.framework */,
+				CB3B928219EFDAF100703C03 /* CoreGraphics.framework */,
+				CB3B928419EFDAF100703C03 /* UIKit.framework */,
+				CB3B92A219EFDAF100703C03 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB3B928619EFDAF100703C03 /* ExampleBankingApp */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B92B819EFEB0200703C03 /* EBLoginViewController.h */,
+				CB3B92B919EFEB0200703C03 /* EBLoginViewController.m */,
+				CB3B928F19EFDAF100703C03 /* EBAppDelegate.h */,
+				CB3B929019EFDAF100703C03 /* EBAppDelegate.m */,
+				CB3B929219EFDAF100703C03 /* Main.storyboard */,
+				CB3B929B19EFDAF100703C03 /* Images.xcassets */,
+				CB3B92BB19EFFD7A00703C03 /* EBWelcomeViewController.h */,
+				CB3B92BC19EFFD7A00703C03 /* EBWelcomeViewController.m */,
+				CB3B928719EFDAF100703C03 /* Supporting Files */,
+			);
+			path = ExampleBankingApp;
+			sourceTree = "<group>";
+		};
+		CB3B928719EFDAF100703C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B928819EFDAF100703C03 /* ExampleBankingApp-Info.plist */,
+				CB3B928919EFDAF100703C03 /* InfoPlist.strings */,
+				CB3B928C19EFDAF100703C03 /* main.m */,
+				CB3B928E19EFDAF100703C03 /* ExampleBankingApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB3B92A819EFDAF100703C03 /* ExampleBankingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B92AE19EFDAF100703C03 /* ExampleBankingAppTests.m */,
+				CB3B92A919EFDAF100703C03 /* Supporting Files */,
+			);
+			path = ExampleBankingAppTests;
+			sourceTree = "<group>";
+		};
+		CB3B92A919EFDAF100703C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B92AA19EFDAF100703C03 /* ExampleBankingAppTests-Info.plist */,
+				CB3B92AB19EFDAF100703C03 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3B927C19EFDAF100703C03 /* ExampleBankingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3B92B219EFDAF100703C03 /* Build configuration list for PBXNativeTarget "ExampleBankingApp" */;
+			buildPhases = (
+				CB3B927919EFDAF100703C03 /* Sources */,
+				CB3B927A19EFDAF100703C03 /* Frameworks */,
+				CB3B927B19EFDAF100703C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleBankingApp;
+			productName = ExampleBankingApp;
+			productReference = CB3B927D19EFDAF100703C03 /* ExampleBankingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB3B92A019EFDAF100703C03 /* ExampleBankingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3B92B519EFDAF100703C03 /* Build configuration list for PBXNativeTarget "ExampleBankingAppTests" */;
+			buildPhases = (
+				CB3B929D19EFDAF100703C03 /* Sources */,
+				CB3B929E19EFDAF100703C03 /* Frameworks */,
+				CB3B929F19EFDAF100703C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3B92A719EFDAF100703C03 /* PBXTargetDependency */,
+			);
+			name = ExampleBankingAppTests;
+			productName = ExampleBankingAppTests;
+			productReference = CB3B92A119EFDAF100703C03 /* ExampleBankingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3B927519EFDAF100703C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Polidea;
+				TargetAttributes = {
+					CB3B92A019EFDAF100703C03 = {
+						TestTargetID = CB3B927C19EFDAF100703C03;
+					};
+				};
+			};
+			buildConfigurationList = CB3B927819EFDAF100703C03 /* Build configuration list for PBXProject "ExampleBankingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3B927419EFDAF100703C03;
+			productRefGroup = CB3B927E19EFDAF100703C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3B927C19EFDAF100703C03 /* ExampleBankingApp */,
+				CB3B92A019EFDAF100703C03 /* ExampleBankingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3B927B19EFDAF100703C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3B929C19EFDAF100703C03 /* Images.xcassets in Resources */,
+				CB3B928B19EFDAF100703C03 /* InfoPlist.strings in Resources */,
+				CB3B929419EFDAF100703C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3B929F19EFDAF100703C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3B92AD19EFDAF100703C03 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3B927919EFDAF100703C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3B92BA19EFEB0200703C03 /* EBLoginViewController.m in Sources */,
+				CB3B928D19EFDAF100703C03 /* main.m in Sources */,
+				CB3B92BD19EFFD7A00703C03 /* EBWelcomeViewController.m in Sources */,
+				CB3B929119EFDAF100703C03 /* EBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3B929D19EFDAF100703C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3B92AF19EFDAF100703C03 /* ExampleBankingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3B92A719EFDAF100703C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3B927C19EFDAF100703C03 /* ExampleBankingApp */;
+			targetProxy = CB3B92A619EFDAF100703C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB3B928919EFDAF100703C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3B928A19EFDAF100703C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB3B929219EFDAF100703C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3B929319EFDAF100703C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB3B92AB19EFDAF100703C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3B92AC19EFDAF100703C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB3B92B019EFDAF100703C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB3B92B119EFDAF100703C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3B92B319EFDAF100703C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleBankingApp/ExampleBankingApp-Prefix.pch";
+				INFOPLIST_FILE = "ExampleBankingApp/ExampleBankingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB3B92B419EFDAF100703C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleBankingApp/ExampleBankingApp-Prefix.pch";
+				INFOPLIST_FILE = "ExampleBankingApp/ExampleBankingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB3B92B619EFDAF100703C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleBankingApp.app/ExampleBankingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleBankingApp/ExampleBankingApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ExampleBankingAppTests/ExampleBankingAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB3B92B719EFDAF100703C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleBankingApp.app/ExampleBankingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleBankingApp/ExampleBankingApp-Prefix.pch";
+				INFOPLIST_FILE = "ExampleBankingAppTests/ExampleBankingAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3B927819EFDAF100703C03 /* Build configuration list for PBXProject "ExampleBankingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3B92B019EFDAF100703C03 /* Debug */,
+				CB3B92B119EFDAF100703C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3B92B219EFDAF100703C03 /* Build configuration list for PBXNativeTarget "ExampleBankingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3B92B319EFDAF100703C03 /* Debug */,
+				CB3B92B419EFDAF100703C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB3B92B519EFDAF100703C03 /* Build configuration list for PBXNativeTarget "ExampleBankingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3B92B619EFDAF100703C03 /* Debug */,
+				CB3B92B719EFDAF100703C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB3B927519EFDAF100703C03 /* Project object */;
+}

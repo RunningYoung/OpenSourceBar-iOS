@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Polidea. All rights reserved.
 //
 
+#import <CocoaLumberjack/CocoaLumberjack.h>
 #import "EBLoginViewController.h"
 
 @interface EBLoginViewController () {
@@ -46,6 +47,7 @@
 
 - (IBAction)buttonLogin:(id)sender
 {
+    DDLogInfo(@"Logging with CocoaLuberjack");
     NSException *testException = [NSException exceptionWithName:@"testException" reason:@"Testing deobfuscation" userInfo:nil];
 //    @throw testException;
     if(![_clientIDField.text isEqualToString:@"123"]) {

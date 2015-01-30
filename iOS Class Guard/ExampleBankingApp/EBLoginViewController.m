@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Polidea. All rights reserved.
 //
 
-#import <CocoaLumberjack/CocoaLumberjack.h>
 #import "EBLoginViewController.h"
 
 @interface EBLoginViewController () {

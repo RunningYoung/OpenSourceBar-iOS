@@ -3,6 +3,7 @@
 Projects are meant to be standalone examples of techniques and frameworks covering the similar areas of different iOS programming aspects.
 
 Directories reflect aspects we wanted to touch:
+ - Obfuscating Objective-C Code - iOS-Class-Guard
  - AutoLayout - Masonry vs PureLayout vs Manual
  - Package Managers - CocoaPods vs Carthage
  - Views Debugging - iOSHierarchyViewer vs Xcode Viewer

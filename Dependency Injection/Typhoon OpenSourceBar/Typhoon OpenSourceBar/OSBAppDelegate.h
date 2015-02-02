@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OSBAppDelegate.h
 //  Typhoon OpenSourceBar
 //
 //  Created by Michał Laskowski on 30/01/15.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface OSBAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end

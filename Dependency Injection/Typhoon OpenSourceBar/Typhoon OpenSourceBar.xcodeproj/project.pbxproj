@@ -1,955 +1,546 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>07ECC44869DDA563AEC4A7D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14759E500A1E9B5D859EB01F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4CA5AB161A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB211A7BE31C00ECE2DB</string>
-				<string>4CA5AB3B1A7BE31C00ECE2DB</string>
-				<string>4CA5AB201A7BE31C00ECE2DB</string>
-				<string>D228BDFF93AB44FD07CE43CB</string>
-				<string>A33AC0CDE4055B013DF3CE58</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB171A7BE31C00ECE2DB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Polidea Sp. z o.o.</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>4CA5AB1E1A7BE31C00ECE2DB</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>4CA5AB371A7BE31C00ECE2DB</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-						<key>TestTargetID</key>
-						<string>4CA5AB1E1A7BE31C00ECE2DB</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4CA5AB1A1A7BE31C00ECE2DB</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>4CA5AB161A7BE31C00ECE2DB</string>
-			<key>productRefGroup</key>
-			<string>4CA5AB201A7BE31C00ECE2DB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>4CA5AB1E1A7BE31C00ECE2DB</string>
-				<string>4CA5AB371A7BE31C00ECE2DB</string>
-			</array>
-		</dict>
-		<key>4CA5AB1A1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4CA5AB401A7BE31C00ECE2DB</string>
-				<string>4CA5AB411A7BE31C00ECE2DB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4CA5AB1B1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4CA5AB2B1A7BE31C00ECE2DB</string>
-				<string>4CA5AB281A7BE31C00ECE2DB</string>
-				<string>4CA5AB251A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CA5AB1C1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C88B9A9237908AB76C76C9D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CA5AB1D1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4CA5AB2E1A7BE31C00ECE2DB</string>
-				<string>4CA5AB331A7BE31C00ECE2DB</string>
-				<string>4CA5AB301A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CA5AB1E1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4CA5AB421A7BE31C00ECE2DB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8C1EA70079232AD84134EBD8</string>
-				<string>4CA5AB1B1A7BE31C00ECE2DB</string>
-				<string>4CA5AB1C1A7BE31C00ECE2DB</string>
-				<string>4CA5AB1D1A7BE31C00ECE2DB</string>
-				<string>E8F5EAD431BAFC8BE5D89D2F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Typhoon OpenSourceBar</string>
-			<key>productName</key>
-			<string>Typhoon OpenSourceBar</string>
-			<key>productReference</key>
-			<string>4CA5AB1F1A7BE31C00ECE2DB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>4CA5AB1F1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Typhoon OpenSourceBar.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4CA5AB201A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB1F1A7BE31C00ECE2DB</string>
-				<string>4CA5AB381A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB211A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB261A7BE31C00ECE2DB</string>
-				<string>4CA5AB271A7BE31C00ECE2DB</string>
-				<string>4CA5AB291A7BE31C00ECE2DB</string>
-				<string>4CA5AB2A1A7BE31C00ECE2DB</string>
-				<string>4CA5AB2C1A7BE31C00ECE2DB</string>
-				<string>4CA5AB2F1A7BE31C00ECE2DB</string>
-				<string>4CA5AB311A7BE31C00ECE2DB</string>
-				<string>4CA5AB221A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Typhoon OpenSourceBar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB221A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB231A7BE31C00ECE2DB</string>
-				<string>4CA5AB241A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB231A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB241A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB251A7BE31C00ECE2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CA5AB241A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA5AB261A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB271A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB281A7BE31C00ECE2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CA5AB271A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA5AB291A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB2A1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB2B1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CA5AB2A1A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA5AB2C1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB2D1A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB2D1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB2E1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CA5AB2C1A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA5AB2F1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB301A7BE31C00ECE2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CA5AB2F1A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA5AB311A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB321A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB321A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB331A7BE31C00ECE2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CA5AB311A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA5AB341A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4CA5AB3F1A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CA5AB351A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CA5AB361A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CA5AB371A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4CA5AB451A7BE31C00ECE2DB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4CA5AB341A7BE31C00ECE2DB</string>
-				<string>4CA5AB351A7BE31C00ECE2DB</string>
-				<string>4CA5AB361A7BE31C00ECE2DB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>4CA5AB3A1A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Typhoon OpenSourceBarTests</string>
-			<key>productName</key>
-			<string>Typhoon OpenSourceBarTests</string>
-			<key>productReference</key>
-			<string>4CA5AB381A7BE31C00ECE2DB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>4CA5AB381A7BE31C00ECE2DB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Typhoon OpenSourceBarTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4CA5AB391A7BE31C00ECE2DB</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>4CA5AB171A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4CA5AB1E1A7BE31C00ECE2DB</string>
-			<key>remoteInfo</key>
-			<string>Typhoon OpenSourceBar</string>
-		</dict>
-		<key>4CA5AB3A1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>4CA5AB1E1A7BE31C00ECE2DB</string>
-			<key>targetProxy</key>
-			<string>4CA5AB391A7BE31C00ECE2DB</string>
-		</dict>
-		<key>4CA5AB3B1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB3E1A7BE31C00ECE2DB</string>
-				<string>4CA5AB3C1A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Typhoon OpenSourceBarTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB3C1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CA5AB3D1A7BE31C00ECE2DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB3D1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB3E1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Typhoon_OpenSourceBarTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CA5AB3F1A7BE31C00ECE2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CA5AB3E1A7BE31C00ECE2DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA5AB401A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4CA5AB411A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4CA5AB421A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4CA5AB431A7BE31C00ECE2DB</string>
-				<string>4CA5AB441A7BE31C00ECE2DB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4CA5AB431A7BE31C00ECE2DB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D43D7612C8487E7669E9DF94</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Typhoon OpenSourceBar/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4CA5AB441A7BE31C00ECE2DB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>07ECC44869DDA563AEC4A7D2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Typhoon OpenSourceBar/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4CA5AB451A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4CA5AB461A7BE31C00ECE2DB</string>
-				<string>4CA5AB471A7BE31C00ECE2DB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4CA5AB461A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Typhoon OpenSourceBarTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Typhoon OpenSourceBar.app/Typhoon OpenSourceBar</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4CA5AB471A7BE31C00ECE2DB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Typhoon OpenSourceBarTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Typhoon OpenSourceBar.app/Typhoon OpenSourceBar</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8C1EA70079232AD84134EBD8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A33AC0CDE4055B013DF3CE58</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14759E500A1E9B5D859EB01F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C88B9A9237908AB76C76C9D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14759E500A1E9B5D859EB01F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D228BDFF93AB44FD07CE43CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D43D7612C8487E7669E9DF94</string>
-				<string>07ECC44869DDA563AEC4A7D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D43D7612C8487E7669E9DF94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8F5EAD431BAFC8BE5D89D2F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>4CA5AB171A7BE31C00ECE2DB</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA5AB251A7BE31C00ECE2DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5AB241A7BE31C00ECE2DB /* main.m */; };
+		4CA5AB281A7BE31C00ECE2DB /* OSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5AB271A7BE31C00ECE2DB /* OSBAppDelegate.m */; };
+		4CA5AB301A7BE31C00ECE2DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5AB2F1A7BE31C00ECE2DB /* Images.xcassets */; };
+		4CA5AB331A7BE31C00ECE2DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5AB311A7BE31C00ECE2DB /* LaunchScreen.xib */; };
+		4CA5AB3F1A7BE31C00ECE2DB /* Typhoon_OpenSourceBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5AB3E1A7BE31C00ECE2DB /* Typhoon_OpenSourceBarTests.m */; };
+		6316758A25CD313003247CE2 /* OSBComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63167378FB7BBC0763A9AB43 /* OSBComponentsAssembly.m */; };
+		631675BE2160B27AC858381C /* OSBCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63167E67F82D4B5885B65F0D /* OSBCellView.m */; };
+		63167BFB8274B743B7AD3E66 /* OSBNetworkManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 631678FBB0EF1FE603DFB84F /* OSBNetworkManger.m */; };
+		63167D5BA4BC28A1D4879097 /* OSBApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 6316707704CF0F9590853BA3 /* OSBApplicationAssembly.m */; };
+		63167F71D708671A56CC7157 /* OSBBasicTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 631676FB8FCC03A0A630C3B1 /* OSBBasicTheme.m */; };
+		63167FE19B5B964692172872 /* OSBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631677CD49A039BC4A47C683 /* OSBRootViewController.m */; };
+		C88B9A9237908AB76C76C9D6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14759E500A1E9B5D859EB01F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA5AB391A7BE31C00ECE2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA5AB171A7BE31C00ECE2DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA5AB1E1A7BE31C00ECE2DB;
+			remoteInfo = "Typhoon OpenSourceBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07ECC44869DDA563AEC4A7D2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		14759E500A1E9B5D859EB01F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA5AB1F1A7BE31C00ECE2DB /* Typhoon OpenSourceBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typhoon OpenSourceBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA5AB231A7BE31C00ECE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA5AB241A7BE31C00ECE2DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CA5AB261A7BE31C00ECE2DB /* OSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSBAppDelegate.h; sourceTree = "<group>"; };
+		4CA5AB271A7BE31C00ECE2DB /* OSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSBAppDelegate.m; sourceTree = "<group>"; };
+		4CA5AB2F1A7BE31C00ECE2DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CA5AB321A7BE31C00ECE2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CA5AB381A7BE31C00ECE2DB /* Typhoon OpenSourceBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typhoon OpenSourceBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA5AB3D1A7BE31C00ECE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA5AB3E1A7BE31C00ECE2DB /* Typhoon_OpenSourceBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Typhoon_OpenSourceBarTests.m; sourceTree = "<group>"; };
+		6316707704CF0F9590853BA3 /* OSBApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBApplicationAssembly.m; sourceTree = "<group>"; };
+		6316717F3315B64119336243 /* OSBTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBTheme.h; sourceTree = "<group>"; };
+		631671AB164E66DB5FDC091B /* OSBBasicTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBBasicTheme.h; sourceTree = "<group>"; };
+		6316724FE2F11A810642A36A /* OSBCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBCellView.h; sourceTree = "<group>"; };
+		63167378FB7BBC0763A9AB43 /* OSBComponentsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBComponentsAssembly.m; sourceTree = "<group>"; };
+		631676DEC9F487A8496320FA /* OSBNetworkManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBNetworkManger.h; sourceTree = "<group>"; };
+		631676FB8FCC03A0A630C3B1 /* OSBBasicTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBBasicTheme.m; sourceTree = "<group>"; };
+		631677CD49A039BC4A47C683 /* OSBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBRootViewController.m; sourceTree = "<group>"; };
+		631678018E13BA02CBA854CB /* OSBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBRootViewController.h; sourceTree = "<group>"; };
+		631678FBB0EF1FE603DFB84F /* OSBNetworkManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBNetworkManger.m; sourceTree = "<group>"; };
+		63167B8EAE5A5C91423C8C76 /* OSBComponentsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBComponentsAssembly.h; sourceTree = "<group>"; };
+		63167D00B911E95ACD9DA4D6 /* OSBApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBApplicationAssembly.h; sourceTree = "<group>"; };
+		63167E67F82D4B5885B65F0D /* OSBCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBCellView.m; sourceTree = "<group>"; };
+		D43D7612C8487E7669E9DF94 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA5AB1C1A7BE31C00ECE2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88B9A9237908AB76C76C9D6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA5AB351A7BE31C00ECE2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA5AB161A7BE31C00ECE2DB = {
+			isa = PBXGroup;
+			children = (
+				4CA5AB211A7BE31C00ECE2DB /* Typhoon OpenSourceBar */,
+				4CA5AB3B1A7BE31C00ECE2DB /* Typhoon OpenSourceBarTests */,
+				4CA5AB201A7BE31C00ECE2DB /* Products */,
+				D228BDFF93AB44FD07CE43CB /* Pods */,
+				A33AC0CDE4055B013DF3CE58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA5AB201A7BE31C00ECE2DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5AB1F1A7BE31C00ECE2DB /* Typhoon OpenSourceBar.app */,
+				4CA5AB381A7BE31C00ECE2DB /* Typhoon OpenSourceBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA5AB211A7BE31C00ECE2DB /* Typhoon OpenSourceBar */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5AB261A7BE31C00ECE2DB /* OSBAppDelegate.h */,
+				4CA5AB271A7BE31C00ECE2DB /* OSBAppDelegate.m */,
+				4CA5AB2F1A7BE31C00ECE2DB /* Images.xcassets */,
+				4CA5AB311A7BE31C00ECE2DB /* LaunchScreen.xib */,
+				4CA5AB221A7BE31C00ECE2DB /* Supporting Files */,
+				631675440E40FA0E2D9AABB3 /* UI */,
+				63167FC16CFF97F039A2C07A /* Network */,
+				63167B21B39052F14475EF4B /* Assembly */,
+			);
+			path = "Typhoon OpenSourceBar";
+			sourceTree = "<group>";
+		};
+		4CA5AB221A7BE31C00ECE2DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5AB231A7BE31C00ECE2DB /* Info.plist */,
+				4CA5AB241A7BE31C00ECE2DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CA5AB3B1A7BE31C00ECE2DB /* Typhoon OpenSourceBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5AB3E1A7BE31C00ECE2DB /* Typhoon_OpenSourceBarTests.m */,
+				4CA5AB3C1A7BE31C00ECE2DB /* Supporting Files */,
+			);
+			path = "Typhoon OpenSourceBarTests";
+			sourceTree = "<group>";
+		};
+		4CA5AB3C1A7BE31C00ECE2DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5AB3D1A7BE31C00ECE2DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		631675440E40FA0E2D9AABB3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				631677CD49A039BC4A47C683 /* OSBRootViewController.m */,
+				631678018E13BA02CBA854CB /* OSBRootViewController.h */,
+				63167E580EF1A19789FA1053 /* Theme */,
+				63167E67F82D4B5885B65F0D /* OSBCellView.m */,
+				6316724FE2F11A810642A36A /* OSBCellView.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		63167B21B39052F14475EF4B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				6316707704CF0F9590853BA3 /* OSBApplicationAssembly.m */,
+				63167D00B911E95ACD9DA4D6 /* OSBApplicationAssembly.h */,
+				63167378FB7BBC0763A9AB43 /* OSBComponentsAssembly.m */,
+				63167B8EAE5A5C91423C8C76 /* OSBComponentsAssembly.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		63167E580EF1A19789FA1053 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				6316717F3315B64119336243 /* OSBTheme.h */,
+				631676FB8FCC03A0A630C3B1 /* OSBBasicTheme.m */,
+				631671AB164E66DB5FDC091B /* OSBBasicTheme.h */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		63167FC16CFF97F039A2C07A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				631678FBB0EF1FE603DFB84F /* OSBNetworkManger.m */,
+				631676DEC9F487A8496320FA /* OSBNetworkManger.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A33AC0CDE4055B013DF3CE58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14759E500A1E9B5D859EB01F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D228BDFF93AB44FD07CE43CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D43D7612C8487E7669E9DF94 /* Pods.debug.xcconfig */,
+				07ECC44869DDA563AEC4A7D2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA5AB1E1A7BE31C00ECE2DB /* Typhoon OpenSourceBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA5AB421A7BE31C00ECE2DB /* Build configuration list for PBXNativeTarget "Typhoon OpenSourceBar" */;
+			buildPhases = (
+				8C1EA70079232AD84134EBD8 /* Check Pods Manifest.lock */,
+				4CA5AB1B1A7BE31C00ECE2DB /* Sources */,
+				4CA5AB1C1A7BE31C00ECE2DB /* Frameworks */,
+				4CA5AB1D1A7BE31C00ECE2DB /* Resources */,
+				E8F5EAD431BAFC8BE5D89D2F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typhoon OpenSourceBar";
+			productName = "Typhoon OpenSourceBar";
+			productReference = 4CA5AB1F1A7BE31C00ECE2DB /* Typhoon OpenSourceBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA5AB371A7BE31C00ECE2DB /* Typhoon OpenSourceBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA5AB451A7BE31C00ECE2DB /* Build configuration list for PBXNativeTarget "Typhoon OpenSourceBarTests" */;
+			buildPhases = (
+				4CA5AB341A7BE31C00ECE2DB /* Sources */,
+				4CA5AB351A7BE31C00ECE2DB /* Frameworks */,
+				4CA5AB361A7BE31C00ECE2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA5AB3A1A7BE31C00ECE2DB /* PBXTargetDependency */,
+			);
+			name = "Typhoon OpenSourceBarTests";
+			productName = "Typhoon OpenSourceBarTests";
+			productReference = 4CA5AB381A7BE31C00ECE2DB /* Typhoon OpenSourceBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA5AB171A7BE31C00ECE2DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Polidea Sp. z o.o.";
+				TargetAttributes = {
+					4CA5AB1E1A7BE31C00ECE2DB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4CA5AB371A7BE31C00ECE2DB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4CA5AB1E1A7BE31C00ECE2DB;
+					};
+				};
+			};
+			buildConfigurationList = 4CA5AB1A1A7BE31C00ECE2DB /* Build configuration list for PBXProject "Typhoon OpenSourceBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA5AB161A7BE31C00ECE2DB;
+			productRefGroup = 4CA5AB201A7BE31C00ECE2DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA5AB1E1A7BE31C00ECE2DB /* Typhoon OpenSourceBar */,
+				4CA5AB371A7BE31C00ECE2DB /* Typhoon OpenSourceBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA5AB1D1A7BE31C00ECE2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA5AB331A7BE31C00ECE2DB /* LaunchScreen.xib in Resources */,
+				4CA5AB301A7BE31C00ECE2DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA5AB361A7BE31C00ECE2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C1EA70079232AD84134EBD8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F5EAD431BAFC8BE5D89D2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA5AB1B1A7BE31C00ECE2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA5AB281A7BE31C00ECE2DB /* OSBAppDelegate.m in Sources */,
+				4CA5AB251A7BE31C00ECE2DB /* main.m in Sources */,
+				63167FE19B5B964692172872 /* OSBRootViewController.m in Sources */,
+				63167F71D708671A56CC7157 /* OSBBasicTheme.m in Sources */,
+				63167BFB8274B743B7AD3E66 /* OSBNetworkManger.m in Sources */,
+				631675BE2160B27AC858381C /* OSBCellView.m in Sources */,
+				63167D5BA4BC28A1D4879097 /* OSBApplicationAssembly.m in Sources */,
+				6316758A25CD313003247CE2 /* OSBComponentsAssembly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA5AB341A7BE31C00ECE2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA5AB3F1A7BE31C00ECE2DB /* Typhoon_OpenSourceBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA5AB3A1A7BE31C00ECE2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA5AB1E1A7BE31C00ECE2DB /* Typhoon OpenSourceBar */;
+			targetProxy = 4CA5AB391A7BE31C00ECE2DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CA5AB311A7BE31C00ECE2DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA5AB321A7BE31C00ECE2DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA5AB401A7BE31C00ECE2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA5AB411A7BE31C00ECE2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA5AB431A7BE31C00ECE2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43D7612C8487E7669E9DF94 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Typhoon OpenSourceBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		4CA5AB441A7BE31C00ECE2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07ECC44869DDA563AEC4A7D2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Typhoon OpenSourceBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		4CA5AB461A7BE31C00ECE2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Typhoon OpenSourceBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typhoon OpenSourceBar.app/Typhoon OpenSourceBar";
+			};
+			name = Debug;
+		};
+		4CA5AB471A7BE31C00ECE2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Typhoon OpenSourceBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typhoon OpenSourceBar.app/Typhoon OpenSourceBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA5AB1A1A7BE31C00ECE2DB /* Build configuration list for PBXProject "Typhoon OpenSourceBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA5AB401A7BE31C00ECE2DB /* Debug */,
+				4CA5AB411A7BE31C00ECE2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA5AB421A7BE31C00ECE2DB /* Build configuration list for PBXNativeTarget "Typhoon OpenSourceBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA5AB431A7BE31C00ECE2DB /* Debug */,
+				4CA5AB441A7BE31C00ECE2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA5AB451A7BE31C00ECE2DB /* Build configuration list for PBXNativeTarget "Typhoon OpenSourceBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA5AB461A7BE31C00ECE2DB /* Debug */,
+				4CA5AB471A7BE31C00ECE2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA5AB171A7BE31C00ECE2DB /* Project object */;
+}

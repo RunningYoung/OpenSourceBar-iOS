@@ -10,3 +10,4 @@ Directories reflect aspects we wanted to touch:
  - Reactive Cocoa - Examples for Reactive Cocoa
  - Unit Tests - Kiwi vs Specta + Expecta (OCMockito, OCHamrest) vs Quick
  - Property Mapping - Mantle vs DCKeyValueObjectMapping vs KZPropertyMapper vs Manual
+ - Dependency Injection - Objection vs Typhoon

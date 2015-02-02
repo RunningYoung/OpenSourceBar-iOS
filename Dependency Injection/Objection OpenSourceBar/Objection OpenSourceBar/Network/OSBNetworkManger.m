@@ -1,10 +1,14 @@
+#import <Objection/Objection.h>
 #import "OSBNetworkManger.h"
 
 
 @implementation OSBNetworkManger {
 
 }
-- (NSArray *)getItemes {
+
+- (NSArray *)getItems {
+    NSLog(@"Get items from URL: %@", _serverUrl.absoluteString);
+
     return @[
             @"Item 1",
             @"Item 2",

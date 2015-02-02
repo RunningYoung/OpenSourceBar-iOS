@@ -2,12 +2,17 @@
 #import "OSBTheme.h"
 #import "OSBNetworkManger.h"
 #import "OSBCellView.h"
+#import "Objection.h"
 
 
 @implementation OSBRootViewController {
-    id<OSBTheme> _theme;
     NSArray *_items;
+    id <OSBTheme> _theme;
 }
+
+objection_register_singleton(OSBRootViewController)
+objection_initializer_sel(@selector(initWithTheme:))
+objection_requires_sel(@selector(networkManger))
 
 - (instancetype)initWithTheme:(id <OSBTheme>)theme {
     self = [super init];
@@ -27,7 +32,7 @@
     self.tableView.delegate = self;
     [self.tableView registerClass:[OSBCellView class] forCellReuseIdentifier:@"OSBCellViewId"];
 
-    _items = [_networkManger getItemes];
+    _items = [_networkManger getItems];
 }
 
 #pragma mark - UITableViewDelegate

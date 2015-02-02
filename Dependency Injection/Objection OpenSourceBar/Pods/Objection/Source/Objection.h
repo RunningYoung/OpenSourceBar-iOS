@@ -15,6 +15,7 @@
 #define objection_register(value)			\
     + (void)initialize { \
         if (self == [value class]) { \
+            NSLog(@"init"); \
             [JSObjection registerClass:[value class] scope: JSObjectionScopeNormal]; \
         } \
     }

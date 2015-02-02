@@ -12,10 +12,11 @@
 		4C812DB81A7F940C009681EE /* OSBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C812DB11A7F940C009681EE /* OSBRootViewController.m */; };
 		4C812DB91A7F940C009681EE /* OSBBasicTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C812DB41A7F940C009681EE /* OSBBasicTheme.m */; };
 		4CA5AB571A7BE42500ECE2DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5AB561A7BE42500ECE2DB /* main.m */; };
-		4CA5AB5A1A7BE42500ECE2DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5AB591A7BE42500ECE2DB /* AppDelegate.m */; };
+		4CA5AB5A1A7BE42500ECE2DB /* OSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5AB591A7BE42500ECE2DB /* OSBAppDelegate.m */; };
 		4CA5AB621A7BE42500ECE2DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5AB611A7BE42500ECE2DB /* Images.xcassets */; };
 		4CA5AB651A7BE42500ECE2DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5AB631A7BE42500ECE2DB /* LaunchScreen.xib */; };
 		4CA5AB711A7BE42500ECE2DB /* Objection_OpenSourceBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5AB701A7BE42500ECE2DB /* Objection_OpenSourceBarTests.m */; };
+		63167762699D646C087337D6 /* OSBAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 631679E8CB651F31D6243D28 /* OSBAppModule.m */; };
 		ADC4B0B845A1CE5EA0D874C2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E9886E53E7CB9C61FA1A4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,13 +45,15 @@
 		4CA5AB511A7BE42500ECE2DB /* Objection OpenSourceBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objection OpenSourceBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA5AB551A7BE42500ECE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA5AB561A7BE42500ECE2DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CA5AB581A7BE42500ECE2DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4CA5AB591A7BE42500ECE2DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CA5AB581A7BE42500ECE2DB /* OSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSBAppDelegate.h; sourceTree = "<group>"; };
+		4CA5AB591A7BE42500ECE2DB /* OSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSBAppDelegate.m; sourceTree = "<group>"; };
 		4CA5AB611A7BE42500ECE2DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CA5AB641A7BE42500ECE2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4CA5AB6A1A7BE42500ECE2DB /* Objection OpenSourceBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objection OpenSourceBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA5AB6F1A7BE42500ECE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA5AB701A7BE42500ECE2DB /* Objection_OpenSourceBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objection_OpenSourceBarTests.m; sourceTree = "<group>"; };
+		631679E8CB651F31D6243D28 /* OSBAppModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBAppModule.m; sourceTree = "<group>"; };
+		63167FCCE2E2EE56A4A44252 /* OSBAppModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBAppModule.h; sourceTree = "<group>"; };
 		E087C77D4EC80E92EC1C2D2F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,11 +132,12 @@
 			children = (
 				4C812DAA1A7F940C009681EE /* Network */,
 				4C812DAD1A7F940C009681EE /* UI */,
-				4CA5AB581A7BE42500ECE2DB /* AppDelegate.h */,
-				4CA5AB591A7BE42500ECE2DB /* AppDelegate.m */,
+				4CA5AB581A7BE42500ECE2DB /* OSBAppDelegate.h */,
+				4CA5AB591A7BE42500ECE2DB /* OSBAppDelegate.m */,
 				4CA5AB611A7BE42500ECE2DB /* Images.xcassets */,
 				4CA5AB631A7BE42500ECE2DB /* LaunchScreen.xib */,
 				4CA5AB541A7BE42500ECE2DB /* Supporting Files */,
+				631677400E49297FFA5DD742 /* ObjectionModules */,
 			);
 			path = "Objection OpenSourceBar";
 			sourceTree = "<group>";
@@ -162,6 +166,15 @@
 				4CA5AB6F1A7BE42500ECE2DB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		631677400E49297FFA5DD742 /* ObjectionModules */ = {
+			isa = PBXGroup;
+			children = (
+				631679E8CB651F31D6243D28 /* OSBAppModule.m */,
+				63167FCCE2E2EE56A4A44252 /* OSBAppModule.h */,
+			);
+			path = ObjectionModules;
 			sourceTree = "<group>";
 		};
 		C141CF22E80B75B8FA54A7F7 /* Frameworks */ = {
@@ -315,12 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA5AB5A1A7BE42500ECE2DB /* AppDelegate.m in Sources */,
+				4CA5AB5A1A7BE42500ECE2DB /* OSBAppDelegate.m in Sources */,
 				4CA5AB571A7BE42500ECE2DB /* main.m in Sources */,
 				4C812DB81A7F940C009681EE /* OSBRootViewController.m in Sources */,
 				4C812DB91A7F940C009681EE /* OSBBasicTheme.m in Sources */,
 				4C812DB61A7F940C009681EE /* OSBNetworkManger.m in Sources */,
 				4C812DB71A7F940C009681EE /* OSBCellView.m in Sources */,
+				63167762699D646C087337D6 /* OSBAppModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +454,7 @@
 				INFOPLIST_FILE = "Objection OpenSourceBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -451,6 +466,7 @@
 				INFOPLIST_FILE = "Objection OpenSourceBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

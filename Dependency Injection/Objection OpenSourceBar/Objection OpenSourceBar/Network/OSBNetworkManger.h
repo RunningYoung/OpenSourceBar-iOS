@@ -3,6 +3,8 @@
 
 @interface OSBNetworkManger : NSObject
 
-- (NSArray *)getItemes;
+@property (nonatomic, copy) NSURL *serverUrl;
+
+- (NSArray *)getItems;
 
 @end
